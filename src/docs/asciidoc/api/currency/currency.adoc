@@ -1,0 +1,21 @@
+[[currency-get]]
+=== 통화 조회
+
+==== HTTP Request
+include::{snippets}/currency-get/http-request.adoc[]
+include::{snippets}/currency-get/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/currency-get/http-response.adoc[]
+include::{snippets}/currency-get/response-fields.adoc[]
+
+[[currency-list]]
+=== 통화 목록 조회
+
+==== HTTP Request
+include::{snippets}/currency-list/http-request.adoc[]
+
+==== HTTP Response
+include::{snippets}/currency-list/http-response.adoc[]
+include::{snippets}/currency-list/response-fields.adoc[]
+

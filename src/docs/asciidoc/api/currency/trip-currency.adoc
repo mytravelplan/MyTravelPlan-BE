@@ -1,0 +1,35 @@
+[[trip-currency-create]]
+=== 여행 통화 생성
+
+==== HTTP Request
+include::{snippets}/trip-currency-create/http-request.adoc[]
+include::{snippets}/trip-currency-create/path-parameters.adoc[]
+include::{snippets}/trip-currency-create/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/trip-currency-create/http-response.adoc[]
+include::{snippets}/trip-currency-create/response-fields.adoc[]
+
+[[trip-currency-list]]
+=== 여행 통화 목록 조회
+
+==== HTTP Request
+include::{snippets}/trip-currency-list/http-request.adoc[]
+include::{snippets}/trip-currency-list/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/trip-currency-list/http-response.adoc[]
+include::{snippets}/trip-currency-list/response-fields.adoc[]
+
+[[trip-currency-update]]
+=== 여행 통화 수정
+
+==== HTTP Request
+include::{snippets}/trip-currency-update/http-request.adoc[]
+include::{snippets}/trip-currency-update/path-parameters.adoc[]
+include::{snippets}/trip-currency-update/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/trip-currency-update/http-response.adoc[]
+include::{snippets}/trip-currency-update/response-fields.adoc[]
+

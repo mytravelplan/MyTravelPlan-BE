@@ -1,0 +1,110 @@
+[[budget-create]]
+=== 개인 예산 등록
+
+==== HTTP Request
+include::{snippets}/budget-create/http-request.adoc[]
+include::{snippets}/budget-create/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/budget-create/http-response.adoc[]
+include::{snippets}/budget-create/response-fields.adoc[]
+
+[[budget-create-shared]]
+=== 공유 예산 등록
+
+==== HTTP Request
+include::{snippets}/budget-create-shared/http-request.adoc[]
+include::{snippets}/budget-create-shared/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/budget-create-shared/http-response.adoc[]
+include::{snippets}/budget-create-shared/response-fields.adoc[]
+
+[[budget-get-personal]]
+=== 개인 예산 조회
+
+==== HTTP Request
+include::{snippets}/budget-get-personal/http-request.adoc[]
+include::{snippets}/budget-get-personal/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/budget-get-personal/http-response.adoc[]
+include::{snippets}/budget-get-personal/response-fields.adoc[]
+
+[[budget-get-shared]]
+=== 공유 예산 조회
+
+==== HTTP Request
+include::{snippets}/budget-get-shared/http-request.adoc[]
+include::{snippets}/budget-get-shared/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/budget-get-shared/http-response.adoc[]
+include::{snippets}/budget-get-shared/response-fields.adoc[]
+
+[[budget-list-personal]]
+=== 개인 예산 목록 조회
+
+==== HTTP Request
+include::{snippets}/budget-list-personal/http-request.adoc[]
+include::{snippets}/budget-list-personal/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/budget-list-personal/http-response.adoc[]
+include::{snippets}/budget-list-personal/response-fields.adoc[]
+
+[[budget-list-shared]]
+=== 공유 예산 목록 조회
+
+==== HTTP Request
+include::{snippets}/budget-list-shared/http-request.adoc[]
+include::{snippets}/budget-list-shared/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/budget-list-shared/http-response.adoc[]
+include::{snippets}/budget-list-shared/response-fields.adoc[]
+
+[[budget-update-personal]]
+=== 개인 예산 수정
+
+==== HTTP Request
+include::{snippets}/budget-update-personal/http-request.adoc[]
+include::{snippets}/budget-update-personal/path-parameters.adoc[]
+include::{snippets}/budget-update-personal/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/budget-update-personal/http-response.adoc[]
+include::{snippets}/budget-update-personal/response-fields.adoc[]
+
+[[budget-update-shared]]
+=== 공유 예산 수정
+
+==== HTTP Request
+include::{snippets}/budget-update-shared/http-request.adoc[]
+include::{snippets}/budget-update-shared/path-parameters.adoc[]
+include::{snippets}/budget-update-shared/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/budget-update-shared/http-response.adoc[]
+include::{snippets}/budget-update-shared/response-fields.adoc[]
+
+[[budget-delete-personal]]
+=== 개인 예산 삭제
+
+==== HTTP Request
+include::{snippets}/budget-delete-personal/http-request.adoc[]
+include::{snippets}/budget-delete-personal/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/budget-delete-personal/http-response.adoc[]
+
+[[budget-delete-shared]]
+=== 공유 예산 삭제
+
+==== HTTP Request
+include::{snippets}/budget-delete-shared/http-request.adoc[]
+include::{snippets}/budget-delete-shared/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/budget-delete-shared/http-response.adoc[]
+

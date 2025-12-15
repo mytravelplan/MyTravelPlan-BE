@@ -1,0 +1,55 @@
+[[product-review-comment-create]]
+=== 상품 리뷰 댓글 생성
+
+==== HTTP Request
+include::{snippets}/product-review-comment-create/http-request.adoc[]
+include::{snippets}/product-review-comment-create/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/product-review-comment-create/http-response.adoc[]
+include::{snippets}/product-review-comment-create/response-fields.adoc[]
+
+[[product-review-comment-get]]
+=== 상품 리뷰 댓글 조회
+
+==== HTTP Request
+include::{snippets}/product-review-comment-get/http-request.adoc[]
+include::{snippets}/product-review-comment-get/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/product-review-comment-get/http-response.adoc[]
+include::{snippets}/product-review-comment-get/response-fields.adoc[]
+
+[[product-review-comment-list]]
+=== 상품 리뷰 댓글 목록 조회
+
+==== HTTP Request
+include::{snippets}/product-review-comment-list/http-request.adoc[]
+include::{snippets}/product-review-comment-list/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/product-review-comment-list/http-response.adoc[]
+include::{snippets}/product-review-comment-list/response-fields.adoc[]
+
+[[product-review-comment-update]]
+=== 상품 리뷰 댓글 수정
+
+==== HTTP Request
+include::{snippets}/product-review-comment-update/http-request.adoc[]
+include::{snippets}/product-review-comment-update/path-parameters.adoc[]
+include::{snippets}/product-review-comment-update/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/product-review-comment-update/http-response.adoc[]
+include::{snippets}/product-review-comment-update/response-fields.adoc[]
+
+[[product-review-comment-delete]]
+=== 상품 리뷰 댓글 삭제
+
+==== HTTP Request
+include::{snippets}/product-review-comment-delete/http-request.adoc[]
+include::{snippets}/product-review-comment-delete/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/product-review-comment-delete/http-response.adoc[]
+

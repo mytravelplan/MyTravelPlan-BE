@@ -1,0 +1,44 @@
+[[deck-create]]
+=== 덱 생성
+
+==== HTTP Request
+include::{snippets}/deck-create/http-request.adoc[]
+include::{snippets}/deck-create/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/deck-create/http-response.adoc[]
+include::{snippets}/deck-create/response-fields.adoc[]
+
+[[deck-get]]
+=== 덱 조회
+
+==== HTTP Request
+include::{snippets}/deck-get/http-request.adoc[]
+include::{snippets}/deck-get/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/deck-get/http-response.adoc[]
+include::{snippets}/deck-get/response-fields.adoc[]
+
+[[deck-update]]
+=== 덱 수정
+
+==== HTTP Request
+include::{snippets}/deck-update/http-request.adoc[]
+include::{snippets}/deck-update/path-parameters.adoc[]
+include::{snippets}/deck-update/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/deck-update/http-response.adoc[]
+include::{snippets}/deck-update/response-fields.adoc[]
+
+[[deck-delete]]
+=== 덱 삭제
+
+==== HTTP Request
+include::{snippets}/deck-delete/http-request.adoc[]
+include::{snippets}/deck-delete/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/deck-delete/http-response.adoc[]
+
