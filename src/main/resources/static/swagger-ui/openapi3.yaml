@@ -19,7 +19,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2MzV9.o41YHBqPDAPkYkyQQo_tGE3A1JFsJ2TcbjAJ_Z1rv8k
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNjF9.Z5CxW1-8ISdqWDd9H3eWu35wdfS3pa19oNByEf61jek
       responses:
         "200":
           description: "200"
@@ -55,7 +55,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2MzV9.o41YHBqPDAPkYkyQQo_tGE3A1JFsJ2TcbjAJ_Z1rv8k
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNjF9.Z5CxW1-8ISdqWDd9H3eWu35wdfS3pa19oNByEf61jek
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -100,7 +100,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiQURNSU4iXSwiZXhwIjoxNzY1NzkyNjM2fQ.W2-G16zSSG6le4C3LsTUbcpRpuZWZXH2v5wvPAQFTSo
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiQURNSU4iXSwiZXhwIjoxNzY1NzkzMzYyfQ.WCYL-qI38ClvdJW1-7llVDQ94gavc8A6dI30emaLbJw
       responses:
         "200":
           description: "200"
@@ -138,7 +138,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiQURNSU4iXSwiZXhwIjoxNzY1NzkyNjM2fQ.W2-G16zSSG6le4C3LsTUbcpRpuZWZXH2v5wvPAQFTSo
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiQURNSU4iXSwiZXhwIjoxNzY1NzkzMzYyfQ.WCYL-qI38ClvdJW1-7llVDQ94gavc8A6dI30emaLbJw
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -158,7 +158,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-categories-categoryId-45463059"
+                $ref: "#/components/schemas/api-categories-45463059"
               examples:
                 category-create:
                   value: |-
@@ -218,7 +218,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NTZ9.wgznjvDO2pWRKmnMZZyfXQdPFE4CrY_yYaTti5QnkQ0
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzODF9.TNhaW6KipFvHI6QhWt0ICu1s6Nhheh_SEBm1YVFVG-M
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -242,7 +242,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-custom-places-customPlaceId-787797821"
+                $ref: "#/components/schemas/api-custom-places-787797821"
               examples:
                 custom-place-create:
                   value: |-
@@ -271,7 +271,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NDd9.ZE9tlHvivzmrqWIzd91Y6lQqd5P1HiIXodxHFAcRvg0
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNzJ9.L1tP7hE2RRPiM952SSAn73vmHzGa0Rv29BdHh_OmX1E
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -314,7 +314,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NDh9.Z2FE1XEi43A-tO-pNh2GJkmGuHFzV3Qx_rlQDofycKc
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNzN9.m66PkoFmGt4Z_4QS9EuHZqcFPQ63A1MHeK92Q1ctnnU
       responses:
         "200":
           description: "200"
@@ -360,7 +360,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NDh9.Z2FE1XEi43A-tO-pNh2GJkmGuHFzV3Qx_rlQDofycKc
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNzN9.m66PkoFmGt4Z_4QS9EuHZqcFPQ63A1MHeK92Q1ctnnU
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -452,7 +452,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NTR9.LWkcZpZuXYxe3LQQew8v87qREfdl1v7xfV9lnjaQUuo
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNzl9.Km67FmIt0Z7rItj42rRdGaBvipIRYtW2-LzsSZMztAw
       responses:
         "200":
           description: "200"
@@ -468,9 +468,9 @@ paths:
                       "data" : {
                         "content" : [ {
                           "orderId" : 1,
-                          "orderDate" : "2025-12-15T09:27:34.900912052",
+                          "orderDate" : "2025-12-15T09:39:39.982413022",
                           "totalPrice" : 30000,
-                          "paymentCompletedAt" : "2025-12-15T09:27:34.900913565",
+                          "paymentCompletedAt" : "2025-12-15T09:39:39.982414184",
                           "orderer" : {
                             "name" : "테스트 사용자",
                             "phoneNumber" : "010-1234-5678",
@@ -488,9 +488,9 @@ paths:
                           }
                         }, {
                           "orderId" : 2,
-                          "orderDate" : "2025-12-15T09:27:34.900920648",
+                          "orderDate" : "2025-12-15T09:39:39.982419765",
                           "totalPrice" : 50000,
-                          "paymentCompletedAt" : "2025-12-15T09:27:34.90092146",
+                          "paymentCompletedAt" : "2025-12-15T09:39:39.982420266",
                           "orderer" : {
                             "name" : "테스트 사용자",
                             "phoneNumber" : "010-1234-5678",
@@ -526,7 +526,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NTR9.LWkcZpZuXYxe3LQQew8v87qREfdl1v7xfV9lnjaQUuo
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzODB9.V2OmRPOYK76IEDLjgc1_m7X5_kmgrUIIt8hO-56ijMM
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -553,7 +553,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-orders-orderId-2136336007"
+                $ref: "#/components/schemas/api-orders-2136336007"
               examples:
                 order-create:
                   value: |-
@@ -561,9 +561,9 @@ paths:
                       "success" : true,
                       "data" : {
                         "orderId" : 1,
-                        "orderDate" : "2025-12-15T09:27:34.971703915",
+                        "orderDate" : "2025-12-15T09:39:40.078648468",
                         "totalPrice" : 30000,
-                        "paymentCompletedAt" : "2025-12-15T09:27:34.971707852",
+                        "paymentCompletedAt" : "2025-12-15T09:39:40.078652415",
                         "orderer" : {
                           "name" : "테스트 사용자",
                           "phoneNumber" : "010-1234-5678",
@@ -619,7 +619,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NTh9.bRVXoRT-OhJxEPq71xASJCC57I-ZfEl9vRgt3oPf5mI
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzODN9.YRYPY6nUv27uI5igwORumfymgKKie_Z2WhvNYbQMCfI
       responses:
         "200":
           description: "200"
@@ -643,8 +643,8 @@ paths:
                           "numberOfComments" : 5,
                           "liked" : false,
                           "bookmarked" : false,
-                          "createdAt" : "2025-12-15T09:27:38.366981597",
-                          "updatedAt" : "2025-12-15T09:27:38.366984973"
+                          "createdAt" : "2025-12-15T09:39:43.172441389",
+                          "updatedAt" : "2025-12-15T09:39:43.172444294"
                         }, {
                           "id" : 2,
                           "authorProfileImageUrl" : "https://example.com/profile2.jpg",
@@ -655,8 +655,8 @@ paths:
                           "numberOfComments" : 3,
                           "liked" : true,
                           "bookmarked" : true,
-                          "createdAt" : "2025-12-15T09:27:38.366993219",
-                          "updatedAt" : "2025-12-15T09:27:38.366994271"
+                          "createdAt" : "2025-12-15T09:39:43.172451417",
+                          "updatedAt" : "2025-12-15T09:39:43.172451938"
                         } ],
                         "nextCursor" : "cursor123",
                         "nextAfter" : 2,
@@ -677,7 +677,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NTh9.bRVXoRT-OhJxEPq71xASJCC57I-ZfEl9vRgt3oPf5mI
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzODN9.YRYPY6nUv27uI5igwORumfymgKKie_Z2WhvNYbQMCfI
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -713,8 +713,8 @@ paths:
                         "numberOfComments" : 0,
                         "liked" : false,
                         "bookmarked" : false,
-                        "createdAt" : "2025-12-15T09:27:38.281340998",
-                        "updatedAt" : "2025-12-15T09:27:38.281344043"
+                        "createdAt" : "2025-12-15T09:39:43.081119496",
+                        "updatedAt" : "2025-12-15T09:39:43.08112216"
                       }
                     }
       security:
@@ -767,7 +767,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NjB9.QcOE8OR_ZuTCS8-ytRlZe1ppo5x6Ujb_q3qLw2trn8Y
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzODV9.gG8oB4NvO3nTQfm91Zx5W75l-c14YDztoG8bb1u6LTU
       responses:
         "200":
           description: "200"
@@ -813,7 +813,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyIiwicm9sZXMiOlsiU0VMTEVSIl0sImV4cCI6MTc2NTc5MjY2MH0.MzR2DnzJqLWDsW5BgGmWdIpSuEB4h4-y6LDyWucbktw
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyIiwicm9sZXMiOlsiU0VMTEVSIl0sImV4cCI6MTc2NTc5MzM4NX0.TIdz_rY8_IhEFGE1w9mU2DjQx7f0LS2WEVo2vOqcYq4
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -899,7 +899,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NTZ9.wgznjvDO2pWRKmnMZZyfXQdPFE4CrY_yYaTti5QnkQ0
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzODF9.TNhaW6KipFvHI6QhWt0ICu1s6Nhheh_SEBm1YVFVG-M
       responses:
         "200":
           description: "200"
@@ -941,7 +941,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyIiwicm9sZXMiOlsiQURNSU4iXSwiZXhwIjoxNzY1NzkyNjU2fQ.BlOMuvSLihpSw064rNpmRqZ-7vhp92d9Ca3W_0dXta8
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyIiwicm9sZXMiOlsiQURNSU4iXSwiZXhwIjoxNzY1NzkzMzgxfQ.D1Btju0gTdOyRi_Xfto3xfNbwF_IA4x2gTo_ir0zlAA
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -966,7 +966,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-trip-places1309357923"
+                $ref: "#/components/schemas/api-trip-places-tripPlaceId1309357923"
               examples:
                 trip-place-create:
                   value: |-
@@ -996,7 +996,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2Njd9.YUUAFq8fvVLirmB7P6rFS34ol8ufav1FT8mCrkOue_s
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzOTJ9.zlz7KJ1_GThh53ncln5InzyN8tb09pbPeT5O6F7a5XM
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -1018,7 +1018,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-trips1611726699"
+                $ref: "#/components/schemas/api-trips-tripId1611726699"
               examples:
                 trip-create:
                   value: |-
@@ -1099,7 +1099,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2MzV9.o41YHBqPDAPkYkyQQo_tGE3A1JFsJ2TcbjAJ_Z1rv8k
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNjF9.Z5CxW1-8ISdqWDd9H3eWu35wdfS3pa19oNByEf61jek
       responses:
         "204":
           description: "204"
@@ -1122,7 +1122,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2MzV9.o41YHBqPDAPkYkyQQo_tGE3A1JFsJ2TcbjAJ_Z1rv8k
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNjF9.Z5CxW1-8ISdqWDd9H3eWu35wdfS3pa19oNByEf61jek
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -1172,14 +1172,14 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiQURNSU4iXSwiZXhwIjoxNzY1NzkyNjM2fQ.W2-G16zSSG6le4C3LsTUbcpRpuZWZXH2v5wvPAQFTSo
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiQURNSU4iXSwiZXhwIjoxNzY1NzkzMzYyfQ.WCYL-qI38ClvdJW1-7llVDQ94gavc8A6dI30emaLbJw
       responses:
         "200":
           description: "200"
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-categories-categoryId-45463059"
+                $ref: "#/components/schemas/api-categories-45463059"
               examples:
                 category-get:
                   value: |-
@@ -1211,7 +1211,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiQURNSU4iXSwiZXhwIjoxNzY1NzkyNjM2fQ.W2-G16zSSG6le4C3LsTUbcpRpuZWZXH2v5wvPAQFTSo
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiQURNSU4iXSwiZXhwIjoxNzY1NzkzMzYyfQ.WCYL-qI38ClvdJW1-7llVDQ94gavc8A6dI30emaLbJw
       responses:
         "204":
           description: "204"
@@ -1234,7 +1234,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiQURNSU4iXSwiZXhwIjoxNzY1NzkyNjM2fQ.W2-G16zSSG6le4C3LsTUbcpRpuZWZXH2v5wvPAQFTSo
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiQURNSU4iXSwiZXhwIjoxNzY1NzkzMzYyfQ.WCYL-qI38ClvdJW1-7llVDQ94gavc8A6dI30emaLbJw
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -1285,7 +1285,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-trips-tripId-trip-currencies-51782054"
+                $ref: "#/components/schemas/api-trips-tripId-trip-currencies-currencyType-51782054"
               examples:
                 currency-get:
                   value: |-
@@ -1347,7 +1347,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NTZ9.wgznjvDO2pWRKmnMZZyfXQdPFE4CrY_yYaTti5QnkQ0
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzODF9.TNhaW6KipFvHI6QhWt0ICu1s6Nhheh_SEBm1YVFVG-M
       responses:
         "200":
           description: "200"
@@ -1395,14 +1395,14 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NTZ9.wgznjvDO2pWRKmnMZZyfXQdPFE4CrY_yYaTti5QnkQ0
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzODF9.TNhaW6KipFvHI6QhWt0ICu1s6Nhheh_SEBm1YVFVG-M
       responses:
         "200":
           description: "200"
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-custom-places-customPlaceId-787797821"
+                $ref: "#/components/schemas/api-custom-places-787797821"
               examples:
                 custom-place-get:
                   value: |-
@@ -1436,7 +1436,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NTZ9.wgznjvDO2pWRKmnMZZyfXQdPFE4CrY_yYaTti5QnkQ0
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzODF9.TNhaW6KipFvHI6QhWt0ICu1s6Nhheh_SEBm1YVFVG-M
       responses:
         "204":
           description: "204"
@@ -1459,7 +1459,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NTZ9.wgznjvDO2pWRKmnMZZyfXQdPFE4CrY_yYaTti5QnkQ0
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzODF9.TNhaW6KipFvHI6QhWt0ICu1s6Nhheh_SEBm1YVFVG-M
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -1518,7 +1518,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NDd9.ZE9tlHvivzmrqWIzd91Y6lQqd5P1HiIXodxHFAcRvg0
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNzJ9.L1tP7hE2RRPiM952SSAn73vmHzGa0Rv29BdHh_OmX1E
       responses:
         "200":
           description: "200"
@@ -1555,7 +1555,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NDd9.ZE9tlHvivzmrqWIzd91Y6lQqd5P1HiIXodxHFAcRvg0
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNzJ9.L1tP7hE2RRPiM952SSAn73vmHzGa0Rv29BdHh_OmX1E
       responses:
         "204":
           description: "204"
@@ -1578,7 +1578,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NDd9.ZE9tlHvivzmrqWIzd91Y6lQqd5P1HiIXodxHFAcRvg0
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNzJ9.L1tP7hE2RRPiM952SSAn73vmHzGa0Rv29BdHh_OmX1E
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -1627,7 +1627,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NDh9.Z2FE1XEi43A-tO-pNh2GJkmGuHFzV3Qx_rlQDofycKc
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNzN9.m66PkoFmGt4Z_4QS9EuHZqcFPQ63A1MHeK92Q1ctnnU
       responses:
         "200":
           description: "200"
@@ -1672,7 +1672,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyIiwicm9sZXMiOlsiQURNSU4iXSwiZXhwIjoxNzY1NzkyNjQ4fQ.kkIxUUu21RyTSL_dNjSWilIIn8uBuwpywLNXw6WCw3s
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyIiwicm9sZXMiOlsiQURNSU4iXSwiZXhwIjoxNzY1NzkzMzczfQ.mpWpU7KZ1QD2Nc1wwwyefSeuHXTJlyhAdVY0Ze4577k
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -1729,14 +1729,14 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NTR9.LWkcZpZuXYxe3LQQew8v87qREfdl1v7xfV9lnjaQUuo
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNzl9.Km67FmIt0Z7rItj42rRdGaBvipIRYtW2-LzsSZMztAw
       responses:
         "200":
           description: "200"
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-orders-orderId-2136336007"
+                $ref: "#/components/schemas/api-orders-2136336007"
               examples:
                 order-get:
                   value: |-
@@ -1744,9 +1744,9 @@ paths:
                       "success" : true,
                       "data" : {
                         "orderId" : 1,
-                        "orderDate" : "2025-12-15T09:27:34.848474366",
+                        "orderDate" : "2025-12-15T09:39:39.930074511",
                         "totalPrice" : 30000,
-                        "paymentCompletedAt" : "2025-12-15T09:27:34.848480367",
+                        "paymentCompletedAt" : "2025-12-15T09:39:39.930083187",
                         "orderer" : {
                           "name" : "테스트 사용자",
                           "phoneNumber" : "010-1234-5678",
@@ -1784,7 +1784,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NTh9.bRVXoRT-OhJxEPq71xASJCC57I-ZfEl9vRgt3oPf5mI
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzODN9.YRYPY6nUv27uI5igwORumfymgKKie_Z2WhvNYbQMCfI
       responses:
         "200":
           description: "200"
@@ -1807,8 +1807,8 @@ paths:
                         "numberOfComments" : 5,
                         "liked" : true,
                         "bookmarked" : false,
-                        "createdAt" : "2025-12-15T09:27:38.250295991",
-                        "updatedAt" : "2025-12-15T09:27:38.250299528"
+                        "createdAt" : "2025-12-15T09:39:43.050102046",
+                        "updatedAt" : "2025-12-15T09:39:43.050106434"
                       }
                     }
       security:
@@ -1830,7 +1830,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NTh9.bRVXoRT-OhJxEPq71xASJCC57I-ZfEl9vRgt3oPf5mI
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzODN9.YRYPY6nUv27uI5igwORumfymgKKie_Z2WhvNYbQMCfI
       responses:
         "204":
           description: "204"
@@ -1853,7 +1853,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NTh9.bRVXoRT-OhJxEPq71xASJCC57I-ZfEl9vRgt3oPf5mI
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzODN9.YRYPY6nUv27uI5igwORumfymgKKie_Z2WhvNYbQMCfI
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -1889,8 +1889,8 @@ paths:
                         "numberOfComments" : 5,
                         "liked" : false,
                         "bookmarked" : false,
-                        "createdAt" : "2025-12-14T09:27:38.339965099",
-                        "updatedAt" : "2025-12-15T09:27:38.339980067"
+                        "createdAt" : "2025-12-14T09:39:43.144699576",
+                        "updatedAt" : "2025-12-15T09:39:43.144717159"
                       }
                     }
       security:
@@ -1913,7 +1913,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NjB9.QcOE8OR_ZuTCS8-ytRlZe1ppo5x6Ujb_q3qLw2trn8Y
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzODV9.gG8oB4NvO3nTQfm91Zx5W75l-c14YDztoG8bb1u6LTU
       responses:
         "200":
           description: "200"
@@ -1953,7 +1953,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyIiwicm9sZXMiOlsiU0VMTEVSIl0sImV4cCI6MTc2NTc5MjY2MH0.MzR2DnzJqLWDsW5BgGmWdIpSuEB4h4-y6LDyWucbktw
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyIiwicm9sZXMiOlsiU0VMTEVSIl0sImV4cCI6MTc2NTc5MzM4NX0.TIdz_rY8_IhEFGE1w9mU2DjQx7f0LS2WEVo2vOqcYq4
       responses:
         "204":
           description: "204"
@@ -1976,7 +1976,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyIiwicm9sZXMiOlsiU0VMTEVSIl0sImV4cCI6MTc2NTc5MjY2MH0.MzR2DnzJqLWDsW5BgGmWdIpSuEB4h4-y6LDyWucbktw
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyIiwicm9sZXMiOlsiU0VMTEVSIl0sImV4cCI6MTc2NTc5MzM4NX0.TIdz_rY8_IhEFGE1w9mU2DjQx7f0LS2WEVo2vOqcYq4
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -2062,7 +2062,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NjJ9.4r-3sAIjbhyY9IozSQkkJUR9ndTlh0KIuJ02fVqFNXE
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzODd9.x9l4yweKrIHQEL6UsPFi_kX14SeJRvmcnfZl39qEo1s
       responses:
         "200":
           description: "200"
@@ -2079,7 +2079,7 @@ paths:
                         "content" : [ {
                           "quizId" : 1,
                           "quizType" : "SELF_REVIEW",
-                          "finishedAt" : "2025-12-15T09:27:42.996333848",
+                          "finishedAt" : "2025-12-15T09:39:47.622578378",
                           "questions" : [ ],
                           "statistics" : [ ]
                         } ],
@@ -2103,7 +2103,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NjN9.SmaN401h3OMcR-fezElserIaD0v7FiwXb2g_gi57yKg
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzODd9.x9l4yweKrIHQEL6UsPFi_kX14SeJRvmcnfZl39qEo1s
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -2122,7 +2122,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-quizzes-start-248716682"
+                $ref: "#/components/schemas/api-quizzes-quizId-finish-248716682"
               examples:
                 quiz-start:
                   value: |-
@@ -2153,14 +2153,14 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NTZ9.wgznjvDO2pWRKmnMZZyfXQdPFE4CrY_yYaTti5QnkQ0
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzODF9.TNhaW6KipFvHI6QhWt0ICu1s6Nhheh_SEBm1YVFVG-M
       responses:
         "200":
           description: "200"
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-trip-places1309357923"
+                $ref: "#/components/schemas/api-trip-places-tripPlaceId1309357923"
               examples:
                 trip-place-get:
                   value: |-
@@ -2195,7 +2195,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyIiwicm9sZXMiOlsiQURNSU4iXSwiZXhwIjoxNzY1NzkyNjU2fQ.BlOMuvSLihpSw064rNpmRqZ-7vhp92d9Ca3W_0dXta8
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyIiwicm9sZXMiOlsiQURNSU4iXSwiZXhwIjoxNzY1NzkzMzgxfQ.D1Btju0gTdOyRi_Xfto3xfNbwF_IA4x2gTo_ir0zlAA
       responses:
         "204":
           description: "204"
@@ -2218,7 +2218,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyIiwicm9sZXMiOlsiQURNSU4iXSwiZXhwIjoxNzY1NzkyNjU2fQ.BlOMuvSLihpSw064rNpmRqZ-7vhp92d9Ca3W_0dXta8
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyIiwicm9sZXMiOlsiQURNSU4iXSwiZXhwIjoxNzY1NzkzMzgxfQ.D1Btju0gTdOyRi_Xfto3xfNbwF_IA4x2gTo_ir0zlAA
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -2243,7 +2243,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-trip-places1309357923"
+                $ref: "#/components/schemas/api-trip-places-tripPlaceId1309357923"
               examples:
                 trip-place-update:
                   value: |-
@@ -2291,7 +2291,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2Njd9.YUUAFq8fvVLirmB7P6rFS34ol8ufav1FT8mCrkOue_s
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzOTJ9.zlz7KJ1_GThh53ncln5InzyN8tb09pbPeT5O6F7a5XM
       responses:
         "200":
           description: "200"
@@ -2338,14 +2338,14 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2Njd9.YUUAFq8fvVLirmB7P6rFS34ol8ufav1FT8mCrkOue_s
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzOTJ9.zlz7KJ1_GThh53ncln5InzyN8tb09pbPeT5O6F7a5XM
       responses:
         "200":
           description: "200"
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-trips1611726699"
+                $ref: "#/components/schemas/api-trips-tripId1611726699"
               examples:
                 trip-get:
                   value: |-
@@ -2378,7 +2378,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2Njd9.YUUAFq8fvVLirmB7P6rFS34ol8ufav1FT8mCrkOue_s
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzOTJ9.zlz7KJ1_GThh53ncln5InzyN8tb09pbPeT5O6F7a5XM
       responses:
         "204":
           description: "204"
@@ -2401,7 +2401,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2Njd9.YUUAFq8fvVLirmB7P6rFS34ol8ufav1FT8mCrkOue_s
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzOTJ9.zlz7KJ1_GThh53ncln5InzyN8tb09pbPeT5O6F7a5XM
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -2423,7 +2423,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-trips1611726699"
+                $ref: "#/components/schemas/api-trips-tripId1611726699"
               examples:
                 trip-update:
                   value: |-
@@ -2457,7 +2457,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2Njh9.oaM-_ohgEwImT-7tXp94rf29SkzMghcjGJAzsbVjy1E
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzOTN9.22rc9pltxHCGeZBJNakjXTvswxh4bQ-DlbJV3NcxcQM
       responses:
         "200":
           description: "200"
@@ -2500,7 +2500,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2Njh9.oaM-_ohgEwImT-7tXp94rf29SkzMghcjGJAzsbVjy1E
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzOTN9.22rc9pltxHCGeZBJNakjXTvswxh4bQ-DlbJV3NcxcQM
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -2596,7 +2596,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2MzN9.OTSDZFn2Q_d6_3VrcKRYctcjtXUgTzDskLaUHC-sDOs
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNTl9.c8Azqk8G0U7dSaFgkMO522Ouf6qAn-7r5nRHJW3Wk50
       responses:
         "200":
           description: "200"
@@ -2646,7 +2646,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2MzN9.OTSDZFn2Q_d6_3VrcKRYctcjtXUgTzDskLaUHC-sDOs
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNTl9.c8Azqk8G0U7dSaFgkMO522Ouf6qAn-7r5nRHJW3Wk50
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -2665,7 +2665,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-decks-deckId-cards-cardId805239527"
+                $ref: "#/components/schemas/api-decks-deckId-cards805239527"
               examples:
                 card-create:
                   value: |-
@@ -2698,14 +2698,14 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NTR9.LWkcZpZuXYxe3LQQew8v87qREfdl1v7xfV9lnjaQUuo
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzODB9.V2OmRPOYK76IEDLjgc1_m7X5_kmgrUIIt8hO-56ijMM
       responses:
         "200":
           description: "200"
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-orders-orderId-2136336007"
+                $ref: "#/components/schemas/api-orders-2136336007"
               examples:
                 order-cancel:
                   value: |-
@@ -2713,9 +2713,9 @@ paths:
                       "success" : true,
                       "data" : {
                         "orderId" : 1,
-                        "orderDate" : "2025-12-15T09:27:34.938590037",
+                        "orderDate" : "2025-12-15T09:39:40.050646283",
                         "totalPrice" : 30000,
-                        "paymentCompletedAt" : "2025-12-15T09:27:34.938591399",
+                        "paymentCompletedAt" : "2025-12-15T09:39:40.050648157",
                         "orderer" : {
                           "name" : "테스트 사용자",
                           "phoneNumber" : "010-1234-5678",
@@ -2753,7 +2753,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NTh9.bRVXoRT-OhJxEPq71xASJCC57I-ZfEl9vRgt3oPf5mI
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzODN9.YRYPY6nUv27uI5igwORumfymgKKie_Z2WhvNYbQMCfI
       responses:
         "200":
           description: "200"
@@ -2792,7 +2792,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NTh9.bRVXoRT-OhJxEPq71xASJCC57I-ZfEl9vRgt3oPf5mI
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzODN9.YRYPY6nUv27uI5igwORumfymgKKie_Z2WhvNYbQMCfI
       responses:
         "200":
           description: "200"
@@ -2862,16 +2862,16 @@ paths:
                           "userId" : 1,
                           "username" : "user1",
                           "content" : "첫 번째 댓글",
-                          "createdAt" : "2025-12-15T09:27:21.660561989",
-                          "updatedAt" : "2025-12-15T09:27:21.660569854"
+                          "createdAt" : "2025-12-15T09:39:27.121791593",
+                          "updatedAt" : "2025-12-15T09:39:27.121798947"
                         }, {
                           "id" : 2,
                           "postId" : 1,
                           "userId" : 2,
                           "username" : "user2",
                           "content" : "두 번째 댓글",
-                          "createdAt" : "2025-12-15T09:27:21.660584601",
-                          "updatedAt" : "2025-12-15T09:27:21.660585283"
+                          "createdAt" : "2025-12-15T09:39:27.121813474",
+                          "updatedAt" : "2025-12-15T09:39:27.121814166"
                         } ],
                         "nextCursor" : null,
                         "nextAfter" : null,
@@ -2896,12 +2896,12 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NDF9.TEl0VkuFeQu4FOUhTM5APaqqtobMCq5l4BC6TBeAoSw
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNjd9.4d1vvcTlqxWT-AVdwmCFnnSkhqjb56Vpx7SxeLyQ8Dg
       requestBody:
         content:
           application/json;charset=UTF-8:
             schema:
-              $ref: "#/components/schemas/api-posts-postId-post-comments-1563718501"
+              $ref: "#/components/schemas/api-trip-places-tripPlaceId-trip-place-reviews-tripPlaceReviewId-trip-place-review-comments-1563718501"
             examples:
               post-comment-create:
                 value: |-
@@ -2914,7 +2914,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-posts-postId-post-comments1873623868"
+                $ref: "#/components/schemas/api-posts-postId-post-comments-postCommentId1873623868"
               examples:
                 post-comment-create:
                   value: |-
@@ -2926,8 +2926,8 @@ paths:
                         "userId" : 1,
                         "username" : "testuser",
                         "content" : "댓글 내용입니다.",
-                        "createdAt" : "2025-12-15T09:27:21.785755124",
-                        "updatedAt" : "2025-12-15T09:27:21.785760033"
+                        "createdAt" : "2025-12-15T09:39:27.318628638",
+                        "updatedAt" : "2025-12-15T09:39:27.318632515"
                       }
                     }
       security:
@@ -2950,7 +2950,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NjB9.QcOE8OR_ZuTCS8-ytRlZe1ppo5x6Ujb_q3qLw2trn8Y
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzODV9.gG8oB4NvO3nTQfm91Zx5W75l-c14YDztoG8bb1u6LTU
       responses:
         "200":
           description: "200"
@@ -3025,7 +3025,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NTN9.89SwJMSRG0VzsxcuTGVO3L5PBHy9OtpG8fSdnIIy3WM
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNzh9.1BjDYgMWn06-gnBvNbaAVPQ6in2R5vQPVg-HhsH8c1Y
       responses:
         "200":
           description: "200"
@@ -3081,7 +3081,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NTN9.89SwJMSRG0VzsxcuTGVO3L5PBHy9OtpG8fSdnIIy3WM
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNzh9.1BjDYgMWn06-gnBvNbaAVPQ6in2R5vQPVg-HhsH8c1Y
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -3101,7 +3101,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-products-productId-inquiries-inquiryId-229784886"
+                $ref: "#/components/schemas/api-products-productId-inquiries-229784886"
               examples:
                 inquiry-create:
                   value: |-
@@ -3167,7 +3167,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NjR9.uEatttKvU12peTmNTsn_Zd7xoWdy0AaIyQfR_n7ha1k
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzODh9.flQPhNjDpb60HcQNeJIR-2sKwk0evggwuU53eZOre8w
       responses:
         "200":
           description: "200"
@@ -3227,12 +3227,12 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NjR9.uEatttKvU12peTmNTsn_Zd7xoWdy0AaIyQfR_n7ha1k
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzODh9.flQPhNjDpb60HcQNeJIR-2sKwk0evggwuU53eZOre8w
       requestBody:
         content:
           application/json;charset=UTF-8:
             schema:
-              $ref: "#/components/schemas/api-trip-places-tripPlaceId-trip-place-reviews555557446"
+              $ref: "#/components/schemas/api-products-productId-product-reviews555557446"
             examples:
               product-review-create:
                 value: |-
@@ -3246,7 +3246,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-products-productId-product-reviews-productReviewId194543075"
+                $ref: "#/components/schemas/api-products-productId-product-reviews194543075"
               examples:
                 product-review-create:
                   value: |-
@@ -3284,7 +3284,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NjN9.SmaN401h3OMcR-fezElserIaD0v7FiwXb2g_gi57yKg
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzODd9.x9l4yweKrIHQEL6UsPFi_kX14SeJRvmcnfZl39qEo1s
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -3303,7 +3303,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-quizzes-start-248716682"
+                $ref: "#/components/schemas/api-quizzes-quizId-finish-248716682"
               examples:
                 quiz-finish:
                   value: |-
@@ -3370,7 +3370,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NjF9.Zdzgb4epep19qiHuX7-V1YOLpIx61txy210pbKhHJas
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzODZ9.Dmf6sSfDoRyKJre5VaWmtogpwYqrCkcDup6NUINcTZk
       responses:
         "200":
           description: "200"
@@ -3419,7 +3419,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NjN9.SmaN401h3OMcR-fezElserIaD0v7FiwXb2g_gi57yKg
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzODd9.x9l4yweKrIHQEL6UsPFi_kX14SeJRvmcnfZl39qEo1s
       responses:
         "200":
           description: "200"
@@ -3435,7 +3435,7 @@ paths:
                       "data" : {
                         "quizId" : 1,
                         "quizType" : "SELF_REVIEW",
-                        "finishedAt" : "2025-12-15T09:27:43.025948816",
+                        "finishedAt" : "2025-12-15T09:39:47.653757749",
                         "questions" : [ ],
                         "statistics" : [ ]
                       }
@@ -3459,7 +3459,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NjJ9.4r-3sAIjbhyY9IozSQkkJUR9ndTlh0KIuJ02fVqFNXE
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzODd9.x9l4yweKrIHQEL6UsPFi_kX14SeJRvmcnfZl39qEo1s
       responses:
         "204":
           description: "204"
@@ -3483,7 +3483,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NTZ9.wgznjvDO2pWRKmnMZZyfXQdPFE4CrY_yYaTti5QnkQ0
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzODF9.TNhaW6KipFvHI6QhWt0ICu1s6Nhheh_SEBm1YVFVG-M
       responses:
         "200":
           description: "200"
@@ -3558,7 +3558,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NjR9.uEatttKvU12peTmNTsn_Zd7xoWdy0AaIyQfR_n7ha1k
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzODl9.5StkYpyRP7lCe6bJfBSUT5ndH3ugQviziujzPfKcciw
       responses:
         "200":
           description: "200"
@@ -3618,12 +3618,12 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NjR9.uEatttKvU12peTmNTsn_Zd7xoWdy0AaIyQfR_n7ha1k
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzODl9.5StkYpyRP7lCe6bJfBSUT5ndH3ugQviziujzPfKcciw
       requestBody:
         content:
           application/json;charset=UTF-8:
             schema:
-              $ref: "#/components/schemas/api-trip-places-tripPlaceId-trip-place-reviews555557446"
+              $ref: "#/components/schemas/api-products-productId-product-reviews555557446"
             examples:
               trip-place-review-create:
                 value: |-
@@ -3637,7 +3637,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-trip-places-tripPlaceId-trip-place-reviews74295314"
+                $ref: "#/components/schemas/api-trip-places-tripPlaceId-trip-place-reviews-tripPlaceReviewId74295314"
               examples:
                 trip-place-review-create:
                   value: |-
@@ -3711,7 +3711,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2MjZ9.QisbI_UAsr4xQriXp8VGVBU8V3FKDWplX0vbYosBeUk
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNTN9.qneOh5xCfbnft8y9_eC49NONFf2i4BGmBWOwPNe-Ook
       responses:
         "200":
           description: "200"
@@ -3759,7 +3759,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2MjZ9.QisbI_UAsr4xQriXp8VGVBU8V3FKDWplX0vbYosBeUk
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNTN9.qneOh5xCfbnft8y9_eC49NONFf2i4BGmBWOwPNe-Ook
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -3848,7 +3848,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2Mzd9.Xc5VsvveSRapsHnhRLzccTNr6C4FkVH9xC7fILJ3Cmw
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNjN9.M-x_3q2m99y_aEHhVcOnLsPwc9jO5OhhYcTDR7sH3ew
       responses:
         "200":
           description: "200"
@@ -3894,7 +3894,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2Mzd9.Xc5VsvveSRapsHnhRLzccTNr6C4FkVH9xC7fILJ3Cmw
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNjN9.M-x_3q2m99y_aEHhVcOnLsPwc9jO5OhhYcTDR7sH3ew
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -3913,7 +3913,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-trips-tripId-checkLists-1960459687"
+                $ref: "#/components/schemas/api-trips-tripId-checkLists-checkListId-1960459687"
               examples:
                 checkList-create:
                   value: |-
@@ -3980,7 +3980,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NDl9.xQSjQmwg0zW9TnPZlFKMJ-O0SZr55iBxV3YijfajwkE
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNzR9.5RU8V5ElT4PVEdaWE21LpUgfnNn9MO3nHkbJyCRE9DI
       responses:
         "200":
           description: "200"
@@ -4038,7 +4038,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NDl9.xQSjQmwg0zW9TnPZlFKMJ-O0SZr55iBxV3YijfajwkE
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNzV9.rcvr0FBHXKKP2UQj77OB-clRhEo6kUIDiVPVbstGc_k
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -4060,7 +4060,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-trips-tripId-diaries-diaryId466413184"
+                $ref: "#/components/schemas/api-trips-tripId-diaries466413184"
               examples:
                 diary-create:
                   value: |-
@@ -4121,7 +4121,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NjZ9.soFx14rJahHYtHQ2ujQipQK4mqtf6PQymnY1C9Wx0KI
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzOTB9.eO7tSiMZMyOEckDQ47aWQxzJZGCfJAfgiI__6xHyhZ4
       responses:
         "200":
           description: "200"
@@ -4179,7 +4179,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NjZ9.soFx14rJahHYtHQ2ujQipQK4mqtf6PQymnY1C9Wx0KI
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzOTB9.eO7tSiMZMyOEckDQ47aWQxzJZGCfJAfgiI__6xHyhZ4
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -4239,7 +4239,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2Njd9.YUUAFq8fvVLirmB7P6rFS34ol8ufav1FT8mCrkOue_s
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzOTJ9.zlz7KJ1_GThh53ncln5InzyN8tb09pbPeT5O6F7a5XM
       responses:
         "200":
           description: "200"
@@ -4304,7 +4304,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NDZ9.vtgSPkUYis6rSCheZ1sFBmwmo3EanOwmfmMc5IybBlE
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNzF9.qqVA5G46sSX7N7hWqgnw_4JoCKT-3S97TlUjIfmnNCk
       responses:
         "200":
           description: "200"
@@ -4346,7 +4346,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NDZ9.vtgSPkUYis6rSCheZ1sFBmwmo3EanOwmfmMc5IybBlE
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNzF9.qqVA5G46sSX7N7hWqgnw_4JoCKT-3S97TlUjIfmnNCk
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -4364,7 +4364,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-trips-tripId-trip-currencies-51782054"
+                $ref: "#/components/schemas/api-trips-tripId-trip-currencies-currencyType-51782054"
               examples:
                 trip-currency-create:
                   value: |-
@@ -4396,14 +4396,14 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2Njh9.oaM-_ohgEwImT-7tXp94rf29SkzMghcjGJAzsbVjy1E
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzOTN9.22rc9pltxHCGeZBJNakjXTvswxh4bQ-DlbJV3NcxcQM
       responses:
         "200":
           description: "200"
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-users-following-username1584325937"
+                $ref: "#/components/schemas/api-users-unfollow-username1584325937"
               examples:
                 user-follow:
                   value: |-
@@ -4431,14 +4431,14 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2Njh9.oaM-_ohgEwImT-7tXp94rf29SkzMghcjGJAzsbVjy1E
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzOTN9.22rc9pltxHCGeZBJNakjXTvswxh4bQ-DlbJV3NcxcQM
       responses:
         "200":
           description: "200"
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-users-following-username1584325937"
+                $ref: "#/components/schemas/api-users-unfollow-username1584325937"
               examples:
                 user-unfollow:
                   value: |-
@@ -4466,7 +4466,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2Njh9.oaM-_ohgEwImT-7tXp94rf29SkzMghcjGJAzsbVjy1E
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzOTN9.22rc9pltxHCGeZBJNakjXTvswxh4bQ-DlbJV3NcxcQM
       responses:
         "200":
           description: "200"
@@ -4511,7 +4511,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2Njh9.oaM-_ohgEwImT-7tXp94rf29SkzMghcjGJAzsbVjy1E
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzOTN9.22rc9pltxHCGeZBJNakjXTvswxh4bQ-DlbJV3NcxcQM
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -4607,7 +4607,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2Njh9.oaM-_ohgEwImT-7tXp94rf29SkzMghcjGJAzsbVjy1E
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzOTN9.22rc9pltxHCGeZBJNakjXTvswxh4bQ-DlbJV3NcxcQM
       responses:
         "200":
           description: "200"
@@ -4690,7 +4690,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2Njh9.oaM-_ohgEwImT-7tXp94rf29SkzMghcjGJAzsbVjy1E
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzOTN9.22rc9pltxHCGeZBJNakjXTvswxh4bQ-DlbJV3NcxcQM
       responses:
         "200":
           description: "200"
@@ -4773,7 +4773,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2Njh9.oaM-_ohgEwImT-7tXp94rf29SkzMghcjGJAzsbVjy1E
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzOTN9.22rc9pltxHCGeZBJNakjXTvswxh4bQ-DlbJV3NcxcQM
       responses:
         "200":
           description: "200"
@@ -4797,8 +4797,8 @@ paths:
                           "numberOfComments" : 5,
                           "liked" : false,
                           "bookmarked" : false,
-                          "createdAt" : "2025-12-15T09:27:48.921790893",
-                          "updatedAt" : "2025-12-15T09:27:48.921803166"
+                          "createdAt" : "2025-12-15T09:39:53.405762935",
+                          "updatedAt" : "2025-12-15T09:39:53.405774347"
                         } ],
                         "nextCursor" : null,
                         "nextAfter" : null,
@@ -4832,14 +4832,14 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2MzN9.OTSDZFn2Q_d6_3VrcKRYctcjtXUgTzDskLaUHC-sDOs
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNTl9.c8Azqk8G0U7dSaFgkMO522Ouf6qAn-7r5nRHJW3Wk50
       responses:
         "200":
           description: "200"
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-decks-deckId-cards-cardId805239527"
+                $ref: "#/components/schemas/api-decks-deckId-cards805239527"
               examples:
                 card-get:
                   value: |-
@@ -4877,7 +4877,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2MzN9.OTSDZFn2Q_d6_3VrcKRYctcjtXUgTzDskLaUHC-sDOs
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNTl9.c8Azqk8G0U7dSaFgkMO522Ouf6qAn-7r5nRHJW3Wk50
       responses:
         "204":
           description: "204"
@@ -4906,7 +4906,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2MzN9.OTSDZFn2Q_d6_3VrcKRYctcjtXUgTzDskLaUHC-sDOs
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNTl9.c8Azqk8G0U7dSaFgkMO522Ouf6qAn-7r5nRHJW3Wk50
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -4965,7 +4965,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-posts-postId-post-comments1873623868"
+                $ref: "#/components/schemas/api-posts-postId-post-comments-postCommentId1873623868"
               examples:
                 post-comment-get:
                   value: |-
@@ -4977,8 +4977,8 @@ paths:
                         "userId" : 1,
                         "username" : "testuser",
                         "content" : "댓글 내용입니다.",
-                        "createdAt" : "2025-12-15T09:27:21.727043248",
-                        "updatedAt" : "2025-12-15T09:27:21.727047135"
+                        "createdAt" : "2025-12-15T09:39:27.24385491",
+                        "updatedAt" : "2025-12-15T09:39:27.243877542"
                       }
                     }
     delete:
@@ -5004,7 +5004,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NDF9.TEl0VkuFeQu4FOUhTM5APaqqtobMCq5l4BC6TBeAoSw
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNjd9.4d1vvcTlqxWT-AVdwmCFnnSkhqjb56Vpx7SxeLyQ8Dg
       responses:
         "204":
           description: "204"
@@ -5033,7 +5033,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NDF9.TEl0VkuFeQu4FOUhTM5APaqqtobMCq5l4BC6TBeAoSw
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNjd9.4d1vvcTlqxWT-AVdwmCFnnSkhqjb56Vpx7SxeLyQ8Dg
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -5051,7 +5051,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-posts-postId-post-comments1873623868"
+                $ref: "#/components/schemas/api-posts-postId-post-comments-postCommentId1873623868"
               examples:
                 post-comment-update:
                   value: |-
@@ -5063,8 +5063,8 @@ paths:
                         "userId" : 1,
                         "username" : "testuser",
                         "content" : "수정된 댓글 내용",
-                        "createdAt" : "2025-12-14T09:27:21.83090396",
-                        "updatedAt" : "2025-12-15T09:27:21.830929057"
+                        "createdAt" : "2025-12-14T09:39:27.372456812",
+                        "updatedAt" : "2025-12-15T09:39:27.372479845"
                       }
                     }
       security:
@@ -5093,14 +5093,14 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NTN9.89SwJMSRG0VzsxcuTGVO3L5PBHy9OtpG8fSdnIIy3WM
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNzh9.1BjDYgMWn06-gnBvNbaAVPQ6in2R5vQPVg-HhsH8c1Y
       responses:
         "200":
           description: "200"
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-products-productId-inquiries-inquiryId-229784886"
+                $ref: "#/components/schemas/api-products-productId-inquiries-229784886"
               examples:
                 inquiry-get:
                   value: |-
@@ -5141,7 +5141,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NTN9.89SwJMSRG0VzsxcuTGVO3L5PBHy9OtpG8fSdnIIy3WM
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNzh9.1BjDYgMWn06-gnBvNbaAVPQ6in2R5vQPVg-HhsH8c1Y
       responses:
         "204":
           description: "204"
@@ -5170,7 +5170,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NTN9.89SwJMSRG0VzsxcuTGVO3L5PBHy9OtpG8fSdnIIy3WM
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNzh9.1BjDYgMWn06-gnBvNbaAVPQ6in2R5vQPVg-HhsH8c1Y
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -5190,7 +5190,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-products-productId-inquiries-inquiryId-229784886"
+                $ref: "#/components/schemas/api-products-productId-inquiries-229784886"
               examples:
                 inquiry-update:
                   value: |-
@@ -5232,14 +5232,14 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NjR9.uEatttKvU12peTmNTsn_Zd7xoWdy0AaIyQfR_n7ha1k
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzODh9.flQPhNjDpb60HcQNeJIR-2sKwk0evggwuU53eZOre8w
       responses:
         "200":
           description: "200"
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-products-productId-product-reviews-productReviewId194543075"
+                $ref: "#/components/schemas/api-products-productId-product-reviews194543075"
               examples:
                 product-review-get:
                   value: |-
@@ -5282,7 +5282,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NjN9.SmaN401h3OMcR-fezElserIaD0v7FiwXb2g_gi57yKg
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzODh9.flQPhNjDpb60HcQNeJIR-2sKwk0evggwuU53eZOre8w
       responses:
         "204":
           description: "204"
@@ -5311,7 +5311,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NjN9.SmaN401h3OMcR-fezElserIaD0v7FiwXb2g_gi57yKg
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzODh9.flQPhNjDpb60HcQNeJIR-2sKwk0evggwuU53eZOre8w
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -5330,7 +5330,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-products-productId-product-reviews-productReviewId194543075"
+                $ref: "#/components/schemas/api-products-productId-product-reviews194543075"
               examples:
                 product-review-update:
                   value: |-
@@ -5374,14 +5374,14 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NjR9.uEatttKvU12peTmNTsn_Zd7xoWdy0AaIyQfR_n7ha1k
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzODl9.5StkYpyRP7lCe6bJfBSUT5ndH3ugQviziujzPfKcciw
       responses:
         "200":
           description: "200"
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-trip-places-tripPlaceId-trip-place-reviews74295314"
+                $ref: "#/components/schemas/api-trip-places-tripPlaceId-trip-place-reviews-tripPlaceReviewId74295314"
               examples:
                 trip-place-review-get:
                   value: |-
@@ -5424,7 +5424,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NjR9.uEatttKvU12peTmNTsn_Zd7xoWdy0AaIyQfR_n7ha1k
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzODl9.5StkYpyRP7lCe6bJfBSUT5ndH3ugQviziujzPfKcciw
       responses:
         "204":
           description: "204"
@@ -5453,7 +5453,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NjR9.uEatttKvU12peTmNTsn_Zd7xoWdy0AaIyQfR_n7ha1k
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzODl9.5StkYpyRP7lCe6bJfBSUT5ndH3ugQviziujzPfKcciw
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -5472,7 +5472,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-trip-places-tripPlaceId-trip-place-reviews74295314"
+                $ref: "#/components/schemas/api-trip-places-tripPlaceId-trip-place-reviews-tripPlaceReviewId74295314"
               examples:
                 trip-place-review-update:
                   value: |-
@@ -5516,7 +5516,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2MjZ9.QisbI_UAsr4xQriXp8VGVBU8V3FKDWplX0vbYosBeUk
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNTN9.qneOh5xCfbnft8y9_eC49NONFf2i4BGmBWOwPNe-Ook
       responses:
         "200":
           description: "200"
@@ -5559,7 +5559,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2MjV9.eFXl4eE56TZYs_ON_QOZO7l6Wew9e_bDEuOaIh8nDGo
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNTN9.qneOh5xCfbnft8y9_eC49NONFf2i4BGmBWOwPNe-Ook
       responses:
         "204":
           description: "204"
@@ -5588,7 +5588,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2MjZ9.QisbI_UAsr4xQriXp8VGVBU8V3FKDWplX0vbYosBeUk
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNTN9.qneOh5xCfbnft8y9_eC49NONFf2i4BGmBWOwPNe-Ook
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -5648,14 +5648,14 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2Mzd9.Xc5VsvveSRapsHnhRLzccTNr6C4FkVH9xC7fILJ3Cmw
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNjN9.M-x_3q2m99y_aEHhVcOnLsPwc9jO5OhhYcTDR7sH3ew
       responses:
         "200":
           description: "200"
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-trips-tripId-checkLists-1960459687"
+                $ref: "#/components/schemas/api-trips-tripId-checkLists-checkListId-1960459687"
               examples:
                 checkList-get:
                   value: |-
@@ -5691,7 +5691,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2Mzd9.Xc5VsvveSRapsHnhRLzccTNr6C4FkVH9xC7fILJ3Cmw
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNjN9.M-x_3q2m99y_aEHhVcOnLsPwc9jO5OhhYcTDR7sH3ew
       responses:
         "204":
           description: "204"
@@ -5720,7 +5720,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2Mzd9.Xc5VsvveSRapsHnhRLzccTNr6C4FkVH9xC7fILJ3Cmw
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNjN9.M-x_3q2m99y_aEHhVcOnLsPwc9jO5OhhYcTDR7sH3ew
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -5776,14 +5776,14 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NDl9.xQSjQmwg0zW9TnPZlFKMJ-O0SZr55iBxV3YijfajwkE
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNzR9.5RU8V5ElT4PVEdaWE21LpUgfnNn9MO3nHkbJyCRE9DI
       responses:
         "200":
           description: "200"
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-trips-tripId-diaries-diaryId466413184"
+                $ref: "#/components/schemas/api-trips-tripId-diaries466413184"
               examples:
                 diary-get:
                   value: |-
@@ -5825,7 +5825,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NDl9.xQSjQmwg0zW9TnPZlFKMJ-O0SZr55iBxV3YijfajwkE
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNzR9.5RU8V5ElT4PVEdaWE21LpUgfnNn9MO3nHkbJyCRE9DI
       responses:
         "204":
           description: "204"
@@ -5854,7 +5854,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NDl9.xQSjQmwg0zW9TnPZlFKMJ-O0SZr55iBxV3YijfajwkE
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNzV9.rcvr0FBHXKKP2UQj77OB-clRhEo6kUIDiVPVbstGc_k
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -5913,7 +5913,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2Njd9.YUUAFq8fvVLirmB7P6rFS34ol8ufav1FT8mCrkOue_s
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzOTJ9.zlz7KJ1_GThh53ncln5InzyN8tb09pbPeT5O6F7a5XM
       responses:
         "200":
           description: "200"
@@ -5961,7 +5961,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NjZ9.soFx14rJahHYtHQ2ujQipQK4mqtf6PQymnY1C9Wx0KI
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzOTB9.eO7tSiMZMyOEckDQ47aWQxzJZGCfJAfgiI__6xHyhZ4
       responses:
         "200":
           description: "200"
@@ -6010,7 +6010,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NjZ9.soFx14rJahHYtHQ2ujQipQK4mqtf6PQymnY1C9Wx0KI
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzOTB9.eO7tSiMZMyOEckDQ47aWQxzJZGCfJAfgiI__6xHyhZ4
       responses:
         "204":
           description: "204"
@@ -6039,7 +6039,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NjZ9.soFx14rJahHYtHQ2ujQipQK4mqtf6PQymnY1C9Wx0KI
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzOTB9.eO7tSiMZMyOEckDQ47aWQxzJZGCfJAfgiI__6xHyhZ4
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -6117,7 +6117,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2Njd9.YUUAFq8fvVLirmB7P6rFS34ol8ufav1FT8mCrkOue_s
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzOTJ9.zlz7KJ1_GThh53ncln5InzyN8tb09pbPeT5O6F7a5XM
       responses:
         "200":
           description: "200"
@@ -6170,7 +6170,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NDZ9.vtgSPkUYis6rSCheZ1sFBmwmo3EanOwmfmMc5IybBlE
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNzF9.qqVA5G46sSX7N7hWqgnw_4JoCKT-3S97TlUjIfmnNCk
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -6188,7 +6188,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-trips-tripId-trip-currencies-51782054"
+                $ref: "#/components/schemas/api-trips-tripId-trip-currencies-currencyType-51782054"
               examples:
                 trip-currency-update:
                   value: |-
@@ -6250,7 +6250,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyIiwicm9sZXMiOlsiU0VMTEVSIl0sImV4cCI6MTc2NTc5MjY1NH0.0Eouz5dbefOdCjl_0GHbl7ObQlXqtDMiV7r5oEOI_6E
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyIiwicm9sZXMiOlsiU0VMTEVSIl0sImV4cCI6MTc2NTc5MzM3OX0.ry8kfe2_No0EEEUcaynGYhrYVv-w3WatUnh2LwhfhJM
       responses:
         "200":
           description: "200"
@@ -6302,7 +6302,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyIiwicm9sZXMiOlsiU0VMTEVSIl0sImV4cCI6MTc2NTc5MjY1M30.zr7spFrO6QkeOtpfBnhzAGw-m2XvKDVCRJ4EFvtmbEo
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyIiwicm9sZXMiOlsiU0VMTEVSIl0sImV4cCI6MTc2NTc5MzM3OX0.ry8kfe2_No0EEEUcaynGYhrYVv-w3WatUnh2LwhfhJM
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -6320,7 +6320,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-products-productId-inquiries-inquiryId-inquiry-replies-inquiryReplyId959792668"
+                $ref: "#/components/schemas/api-products-productId-inquiries-inquiryId-inquiry-replies959792668"
               examples:
                 inquiry-reply-create:
                   value: |-
@@ -6357,7 +6357,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NjN9.SmaN401h3OMcR-fezElserIaD0v7FiwXb2g_gi57yKg
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzODh9.flQPhNjDpb60HcQNeJIR-2sKwk0evggwuU53eZOre8w
       responses:
         "200":
           description: "200"
@@ -6433,16 +6433,16 @@ paths:
                           "userId" : 1,
                           "username" : "seller1",
                           "content" : "첫 번째 댓글",
-                          "createdAt" : "2025-12-15T09:27:22.653461995",
-                          "updatedAt" : "2025-12-15T09:27:22.653466394"
+                          "createdAt" : "2025-12-15T09:39:28.135740661",
+                          "updatedAt" : "2025-12-15T09:39:28.135744558"
                         }, {
                           "id" : 2,
                           "productReviewId" : 1,
                           "userId" : 2,
                           "username" : "seller2",
                           "content" : "두 번째 댓글",
-                          "createdAt" : "2025-12-15T09:27:22.653476563",
-                          "updatedAt" : "2025-12-15T09:27:22.653477184"
+                          "createdAt" : "2025-12-15T09:39:28.135754076",
+                          "updatedAt" : "2025-12-15T09:39:28.135754637"
                         } ],
                         "nextCursor" : null,
                         "nextAfter" : null,
@@ -6473,12 +6473,12 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiU0VMTEVSIl0sImV4cCI6MTc2NTc5MjY0Mn0.wZ67I_bS0lhBcNh3niHaZeLpkiSjc6jwVvoCSM880Ls
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiU0VMTEVSIl0sImV4cCI6MTc2NTc5MzM2OH0.y3VoY4T-weFx-NVuVH3QoT9nJX1FCCwk2ehnhe1v_7U
       requestBody:
         content:
           application/json;charset=UTF-8:
             schema:
-              $ref: "#/components/schemas/api-posts-postId-post-comments-1563718501"
+              $ref: "#/components/schemas/api-trip-places-tripPlaceId-trip-place-reviews-tripPlaceReviewId-trip-place-review-comments-1563718501"
             examples:
               product-review-comment-create:
                 value: |-
@@ -6503,8 +6503,8 @@ paths:
                         "userId" : 1,
                         "username" : "testuser",
                         "content" : "상품 리뷰에 대한 답변입니다.",
-                        "createdAt" : "2025-12-15T09:27:22.607326762",
-                        "updatedAt" : "2025-12-15T09:27:22.60733098"
+                        "createdAt" : "2025-12-15T09:39:28.087693675",
+                        "updatedAt" : "2025-12-15T09:39:28.087697572"
                       }
                     }
       security:
@@ -6533,7 +6533,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NjR9.uEatttKvU12peTmNTsn_Zd7xoWdy0AaIyQfR_n7ha1k
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzODl9.5StkYpyRP7lCe6bJfBSUT5ndH3ugQviziujzPfKcciw
       responses:
         "200":
           description: "200"
@@ -6609,16 +6609,16 @@ paths:
                           "userId" : 1,
                           "username" : "user1",
                           "content" : "첫 번째 댓글",
-                          "createdAt" : "2025-12-15T09:27:23.345537909",
-                          "updatedAt" : "2025-12-15T09:27:23.34554421"
+                          "createdAt" : "2025-12-15T09:39:28.772322887",
+                          "updatedAt" : "2025-12-15T09:39:28.772347964"
                         }, {
                           "id" : 2,
                           "reviewId" : 1,
                           "userId" : 2,
                           "username" : "user2",
                           "content" : "두 번째 댓글",
-                          "createdAt" : "2025-12-15T09:27:23.3455549",
-                          "updatedAt" : "2025-12-15T09:27:23.345555251"
+                          "createdAt" : "2025-12-15T09:39:28.77236207",
+                          "updatedAt" : "2025-12-15T09:39:28.772362711"
                         } ],
                         "nextCursor" : null,
                         "nextAfter" : null,
@@ -6649,12 +6649,12 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NDN9.OgdftlNXQVtWrW2PWeVnBdeK2un-P8mYjcOAr4nfsJ4
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNjh9.EqYs-y0lsz-luIr-4WCldTJPBTHxpzibN4ei8Fx7yl0
       requestBody:
         content:
           application/json;charset=UTF-8:
             schema:
-              $ref: "#/components/schemas/api-posts-postId-post-comments-1563718501"
+              $ref: "#/components/schemas/api-trip-places-tripPlaceId-trip-place-reviews-tripPlaceReviewId-trip-place-review-comments-1563718501"
             examples:
               trip-place-review-comment-create:
                 value: |-
@@ -6667,7 +6667,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-trip-places-tripPlaceId-trip-place-reviews-tripPlaceReviewId-trip-place-review-comments-tripPlaceReviewCommentId1758278182"
+                $ref: "#/components/schemas/api-trip-places-tripPlaceId-trip-place-reviews-tripPlaceReviewId-trip-place-review-comments1758278182"
               examples:
                 trip-place-review-comment-create:
                   value: |-
@@ -6679,8 +6679,8 @@ paths:
                         "userId" : 1,
                         "username" : "testuser",
                         "content" : "여행 장소 리뷰 댓글 내용입니다.",
-                        "createdAt" : "2025-12-15T09:27:23.392126618",
-                        "updatedAt" : "2025-12-15T09:27:23.392129864"
+                        "createdAt" : "2025-12-15T09:39:28.844483092",
+                        "updatedAt" : "2025-12-15T09:39:28.844486999"
                       }
                     }
       security:
@@ -6733,7 +6733,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2Mzh9.bRGNpwBhzbCQp3ocT09yZjcDCzgLXvbOrC5FfKsatP4
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNjR9.WQHB-BcDo_kFaexj-eGzzK1gmi4-Cv5f93J2jm7e45U
       responses:
         "200":
           description: "200"
@@ -6772,7 +6772,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2Mzh9.bRGNpwBhzbCQp3ocT09yZjcDCzgLXvbOrC5FfKsatP4
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNjR9.WQHB-BcDo_kFaexj-eGzzK1gmi4-Cv5f93J2jm7e45U
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -6855,7 +6855,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NTF9.ea6BKlECDeNWB9_Xki38u3ksgdPY_i8bRpBAyAUDmdc
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNzZ9.MX1FYV7y9wtr-9kGqbJTPl_LmuETzSUkR_7fOxJuDis
       responses:
         "200":
           description: "200"
@@ -6900,12 +6900,12 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NTF9.ea6BKlECDeNWB9_Xki38u3ksgdPY_i8bRpBAyAUDmdc
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNzZ9.MX1FYV7y9wtr-9kGqbJTPl_LmuETzSUkR_7fOxJuDis
       requestBody:
         content:
           application/json;charset=UTF-8:
             schema:
-              $ref: "#/components/schemas/api-trips-tripId-schedules-scheduleId-expenses1756984072"
+              $ref: "#/components/schemas/api-trips-tripId-schedules-scheduleId-expenses-expenseId1756984072"
             examples:
               expense-create-shared:
                 value: "{\"expenseType\":\"SHARED\",\"dateTime\":\"2025-01-05T12:00:00\"\
@@ -6925,7 +6925,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-trips-tripId-schedules-scheduleId-expenses1733945869"
+                $ref: "#/components/schemas/api-trips-tripId-schedules-scheduleId-expenses-expenseId1733945869"
               examples:
                 expense-create-shared:
                   value: "{\"success\":true,\"data\":{\"id\":1,\"memo\":\"공유 지출\"\
@@ -6972,14 +6972,14 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyIiwicm9sZXMiOlsiU0VMTEVSIl0sImV4cCI6MTc2NTc5MjY1M30.zr7spFrO6QkeOtpfBnhzAGw-m2XvKDVCRJ4EFvtmbEo
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyIiwicm9sZXMiOlsiU0VMTEVSIl0sImV4cCI6MTc2NTc5MzM3OX0.ry8kfe2_No0EEEUcaynGYhrYVv-w3WatUnh2LwhfhJM
       responses:
         "200":
           description: "200"
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-products-productId-inquiries-inquiryId-inquiry-replies-inquiryReplyId959792668"
+                $ref: "#/components/schemas/api-products-productId-inquiries-inquiryId-inquiry-replies959792668"
               examples:
                 inquiry-reply-get:
                   value: |-
@@ -7021,7 +7021,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyIiwicm9sZXMiOlsiU0VMTEVSIl0sImV4cCI6MTc2NTc5MjY1M30.zr7spFrO6QkeOtpfBnhzAGw-m2XvKDVCRJ4EFvtmbEo
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyIiwicm9sZXMiOlsiU0VMTEVSIl0sImV4cCI6MTc2NTc5MzM3OX0.ry8kfe2_No0EEEUcaynGYhrYVv-w3WatUnh2LwhfhJM
       responses:
         "204":
           description: "204"
@@ -7056,7 +7056,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyIiwicm9sZXMiOlsiU0VMTEVSIl0sImV4cCI6MTc2NTc5MjY1M30.zr7spFrO6QkeOtpfBnhzAGw-m2XvKDVCRJ4EFvtmbEo
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyIiwicm9sZXMiOlsiU0VMTEVSIl0sImV4cCI6MTc2NTc5MzM3OX0.ry8kfe2_No0EEEUcaynGYhrYVv-w3WatUnh2LwhfhJM
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -7074,7 +7074,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-products-productId-inquiries-inquiryId-inquiry-replies-inquiryReplyId959792668"
+                $ref: "#/components/schemas/api-products-productId-inquiries-inquiryId-inquiry-replies959792668"
               examples:
                 inquiry-reply-update:
                   value: |-
@@ -7129,8 +7129,8 @@ paths:
                         "userId" : 1,
                         "username" : "testuser",
                         "content" : "상품 리뷰 댓글 내용입니다.",
-                        "createdAt" : "2025-12-15T09:27:22.475468784",
-                        "updatedAt" : "2025-12-15T09:27:22.475473463"
+                        "createdAt" : "2025-12-15T09:39:27.977592564",
+                        "updatedAt" : "2025-12-15T09:39:27.977597153"
                       }
                     }
     delete:
@@ -7162,7 +7162,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiU0VMTEVSIl0sImV4cCI6MTc2NTc5MjY0Mn0.wZ67I_bS0lhBcNh3niHaZeLpkiSjc6jwVvoCSM880Ls
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiU0VMTEVSIl0sImV4cCI6MTc2NTc5MzM2OH0.y3VoY4T-weFx-NVuVH3QoT9nJX1FCCwk2ehnhe1v_7U
       responses:
         "204":
           description: "204"
@@ -7197,7 +7197,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiU0VMTEVSIl0sImV4cCI6MTc2NTc5MjY0Mn0.wZ67I_bS0lhBcNh3niHaZeLpkiSjc6jwVvoCSM880Ls
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiU0VMTEVSIl0sImV4cCI6MTc2NTc5MzM2OH0.y3VoY4T-weFx-NVuVH3QoT9nJX1FCCwk2ehnhe1v_7U
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -7227,8 +7227,8 @@ paths:
                         "userId" : 1,
                         "username" : "testuser",
                         "content" : "수정된 댓글 내용",
-                        "createdAt" : "2025-12-14T09:27:22.538472391",
-                        "updatedAt" : "2025-12-15T09:27:22.538485425"
+                        "createdAt" : "2025-12-14T09:39:28.027203607",
+                        "updatedAt" : "2025-12-15T09:39:28.027214858"
                       }
                     }
       security:
@@ -7263,7 +7263,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-trip-places-tripPlaceId-trip-place-reviews-tripPlaceReviewId-trip-place-review-comments-tripPlaceReviewCommentId1758278182"
+                $ref: "#/components/schemas/api-trip-places-tripPlaceId-trip-place-reviews-tripPlaceReviewId-trip-place-review-comments1758278182"
               examples:
                 trip-place-review-comment-get:
                   value: |-
@@ -7275,8 +7275,8 @@ paths:
                         "userId" : 1,
                         "username" : "testuser",
                         "content" : "여행 장소 리뷰 댓글 내용입니다.",
-                        "createdAt" : "2025-12-15T09:27:23.465101791",
-                        "updatedAt" : "2025-12-15T09:27:23.465105919"
+                        "createdAt" : "2025-12-15T09:39:28.93126982",
+                        "updatedAt" : "2025-12-15T09:39:28.931273346"
                       }
                     }
     delete:
@@ -7308,7 +7308,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NDN9.OgdftlNXQVtWrW2PWeVnBdeK2un-P8mYjcOAr4nfsJ4
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNjh9.EqYs-y0lsz-luIr-4WCldTJPBTHxpzibN4ei8Fx7yl0
       responses:
         "204":
           description: "204"
@@ -7343,7 +7343,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NDN9.OgdftlNXQVtWrW2PWeVnBdeK2un-P8mYjcOAr4nfsJ4
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNjh9.EqYs-y0lsz-luIr-4WCldTJPBTHxpzibN4ei8Fx7yl0
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -7361,7 +7361,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-trip-places-tripPlaceId-trip-place-reviews-tripPlaceReviewId-trip-place-review-comments-tripPlaceReviewCommentId1758278182"
+                $ref: "#/components/schemas/api-trip-places-tripPlaceId-trip-place-reviews-tripPlaceReviewId-trip-place-review-comments1758278182"
               examples:
                 trip-place-review-comment-update:
                   value: |-
@@ -7373,8 +7373,8 @@ paths:
                         "userId" : 1,
                         "username" : "testuser",
                         "content" : "수정된 댓글 내용",
-                        "createdAt" : "2025-12-14T09:27:23.429096939",
-                        "updatedAt" : "2025-12-15T09:27:23.429116135"
+                        "createdAt" : "2025-12-14T09:39:28.896506216",
+                        "updatedAt" : "2025-12-15T09:39:28.896529539"
                       }
                     }
       security:
@@ -7409,7 +7409,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2Mzh9.bRGNpwBhzbCQp3ocT09yZjcDCzgLXvbOrC5FfKsatP4
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNjR9.WQHB-BcDo_kFaexj-eGzzK1gmi4-Cv5f93J2jm7e45U
       responses:
         "200":
           description: "200"
@@ -7452,7 +7452,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2Mzh9.bRGNpwBhzbCQp3ocT09yZjcDCzgLXvbOrC5FfKsatP4
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNjR9.WQHB-BcDo_kFaexj-eGzzK1gmi4-Cv5f93J2jm7e45U
       responses:
         "204":
           description: "204"
@@ -7487,7 +7487,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2Mzh9.bRGNpwBhzbCQp3ocT09yZjcDCzgLXvbOrC5FfKsatP4
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNjR9.WQHB-BcDo_kFaexj-eGzzK1gmi4-Cv5f93J2jm7e45U
       requestBody:
         content:
           application/json;charset=UTF-8:
@@ -7546,14 +7546,14 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NTF9.ea6BKlECDeNWB9_Xki38u3ksgdPY_i8bRpBAyAUDmdc
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNzZ9.MX1FYV7y9wtr-9kGqbJTPl_LmuETzSUkR_7fOxJuDis
       responses:
         "200":
           description: "200"
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-trips-tripId-schedules-scheduleId-expenses1733945869"
+                $ref: "#/components/schemas/api-trips-tripId-schedules-scheduleId-expenses-expenseId1733945869"
               examples:
                 expense-get:
                   value: "{\"success\":true,\"data\":{\"id\":1,\"memo\":\"개인 지출\"\
@@ -7599,7 +7599,7 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NTF9.ea6BKlECDeNWB9_Xki38u3ksgdPY_i8bRpBAyAUDmdc
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNzZ9.MX1FYV7y9wtr-9kGqbJTPl_LmuETzSUkR_7fOxJuDis
       responses:
         "204":
           description: "204"
@@ -7634,12 +7634,12 @@ paths:
         required: true
         schema:
           type: string
-        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTI2NTF9.ea6BKlECDeNWB9_Xki38u3ksgdPY_i8bRpBAyAUDmdc
+        example: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3NjU3OTMzNzZ9.MX1FYV7y9wtr-9kGqbJTPl_LmuETzSUkR_7fOxJuDis
       requestBody:
         content:
           application/json;charset=UTF-8:
             schema:
-              $ref: "#/components/schemas/api-trips-tripId-schedules-scheduleId-expenses1756984072"
+              $ref: "#/components/schemas/api-trips-tripId-schedules-scheduleId-expenses-expenseId1756984072"
             examples:
               expense-update-shared:
                 value: "{\"expenseType\":\"SHARED\",\"dateTime\":\"2025-01-06T12:00:00\"\
@@ -7659,7 +7659,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/api-trips-tripId-schedules-scheduleId-expenses1733945869"
+                $ref: "#/components/schemas/api-trips-tripId-schedules-scheduleId-expenses-expenseId1733945869"
               examples:
                 expense-update-shared:
                   value: "{\"success\":true,\"data\":{\"id\":1,\"memo\":\"수정된 공유 지\
@@ -7686,62 +7686,6 @@ components:
         quantity:
           type: number
           description: 수정할 수량
-    api-trip-places-tripPlaceId-trip-place-reviews-tripPlaceReviewId-trip-place-review-comments-907822875:
-      required:
-      - success
-      type: object
-      properties:
-        data:
-          required:
-          - content
-          - hasNext
-          - size
-          type: object
-          properties:
-            size:
-              type: number
-              description: 현재 페이지 크기
-            hasNext:
-              type: boolean
-              description: 다음 페이지 존재 여부
-            content:
-              type: array
-              description: 댓글 목록
-              items:
-                required:
-                - content
-                - createdAt
-                - id
-                - reviewId
-                - updatedAt
-                - userId
-                - username
-                type: object
-                properties:
-                  createdAt:
-                    type: string
-                    description: 생성일시
-                  id:
-                    type: number
-                    description: 댓글 ID
-                  userId:
-                    type: number
-                    description: 작성자 ID
-                  reviewId:
-                    type: number
-                    description: 여행 장소 리뷰 ID
-                  content:
-                    type: string
-                    description: 댓글 내용
-                  updatedAt:
-                    type: string
-                    description: 수정일시
-                  username:
-                    type: string
-                    description: 작성자 이름
-        success:
-          type: boolean
-          description: 성공 여부
     api-trips-tripId-diaries606808621:
       required:
       - success
@@ -7813,6 +7757,62 @@ components:
                   updatedAt:
                     type: string
                     description: 수정 일시
+        success:
+          type: boolean
+          description: 성공 여부
+    api-trip-places-tripPlaceId-trip-place-reviews-tripPlaceReviewId-trip-place-review-comments-907822875:
+      required:
+      - success
+      type: object
+      properties:
+        data:
+          required:
+          - content
+          - hasNext
+          - size
+          type: object
+          properties:
+            size:
+              type: number
+              description: 현재 페이지 크기
+            hasNext:
+              type: boolean
+              description: 다음 페이지 존재 여부
+            content:
+              type: array
+              description: 댓글 목록
+              items:
+                required:
+                - content
+                - createdAt
+                - id
+                - reviewId
+                - updatedAt
+                - userId
+                - username
+                type: object
+                properties:
+                  createdAt:
+                    type: string
+                    description: 생성일시
+                  id:
+                    type: number
+                    description: 댓글 ID
+                  userId:
+                    type: number
+                    description: 작성자 ID
+                  reviewId:
+                    type: number
+                    description: 여행 장소 리뷰 ID
+                  content:
+                    type: string
+                    description: 댓글 내용
+                  updatedAt:
+                    type: string
+                    description: 수정일시
+                  username:
+                    type: string
+                    description: 작성자 이름
         success:
           type: boolean
           description: 성공 여부
@@ -8036,7 +8036,7 @@ components:
         success:
           type: boolean
           description: 성공 여부
-    api-decks-deckId-cards-cardId805239527:
+    api-decks-deckId-cards805239527:
       required:
       - success
       type: object
@@ -8372,7 +8372,7 @@ components:
         front:
           type: string
           description: 카드 앞면 내용
-    api-products-productId-inquiries-inquiryId-inquiry-replies-inquiryReplyId959792668:
+    api-products-productId-inquiries-inquiryId-inquiry-replies959792668:
       required:
       - success
       type: object
@@ -8392,6 +8392,18 @@ components:
         success:
           type: boolean
           description: 성공 여부
+    api-trips-tripId-checkLists-checkListId300935878:
+      required:
+      - checkListType
+      - name
+      type: object
+      properties:
+        checkListType:
+          type: string
+          description: "체크리스트 타입 (SHARED, PERSONAL)"
+        name:
+          type: string
+          description: 수정할 체크리스트 이름
     api-users-username-followers-417502668:
       required:
       - success
@@ -8439,18 +8451,6 @@ components:
         success:
           type: boolean
           description: 성공 여부
-    api-trips-tripId-checkLists-checkListId300935878:
-      required:
-      - checkListType
-      - name
-      type: object
-      properties:
-        checkListType:
-          type: string
-          description: "체크리스트 타입 (SHARED, PERSONAL)"
-        name:
-          type: string
-          description: 수정할 체크리스트 이름
     api-posts-postId-1423811575:
       type: object
       properties:
@@ -8726,46 +8726,6 @@ components:
         success:
           type: boolean
           description: 성공 여부
-    api-products-productId-product-reviews-productReviewId-product-review-comments-1054867673:
-      required:
-      - success
-      type: object
-      properties:
-        data:
-          required:
-          - content
-          - createdAt
-          - id
-          - productReviewId
-          - updatedAt
-          - userId
-          - username
-          type: object
-          properties:
-            createdAt:
-              type: string
-              description: 생성일시
-            id:
-              type: number
-              description: 댓글 ID
-            productReviewId:
-              type: number
-              description: ' 상품 리뷰 ID'
-            userId:
-              type: number
-              description: 작성자 ID
-            content:
-              type: string
-              description: 댓글 내용
-            updatedAt:
-              type: string
-              description: 수정일시
-            username:
-              type: string
-              description: 작성자 이름
-        success:
-          type: boolean
-          description: 성공 여부
     api-deliveries-deliveryId403426611:
       required:
       - success
@@ -8811,6 +8771,46 @@ components:
             deliveryStatus:
               type: string
               description: "배송 상태 (READY, DELIVERING, COMP)"
+        success:
+          type: boolean
+          description: 성공 여부
+    api-products-productId-product-reviews-productReviewId-product-review-comments-1054867673:
+      required:
+      - success
+      type: object
+      properties:
+        data:
+          required:
+          - content
+          - createdAt
+          - id
+          - productReviewId
+          - updatedAt
+          - userId
+          - username
+          type: object
+          properties:
+            createdAt:
+              type: string
+              description: 생성일시
+            id:
+              type: number
+              description: 댓글 ID
+            productReviewId:
+              type: number
+              description: ' 상품 리뷰 ID'
+            userId:
+              type: number
+              description: 작성자 ID
+            content:
+              type: string
+              description: 댓글 내용
+            updatedAt:
+              type: string
+              description: 수정일시
+            username:
+              type: string
+              description: 작성자 이름
         success:
           type: boolean
           description: 성공 여부
@@ -8995,6 +8995,39 @@ components:
         name:
           type: string
           description: 체크리스트 이름
+    api-custom-places-1390377630:
+      required:
+      - address
+      - category
+      - description
+      - latitude
+      - longitude
+      - name
+      - placeType
+      type: object
+      properties:
+        placeType:
+          type: string
+          description: 장소 타입 (CUSTOM)
+        address:
+          type: string
+          description: 장소 주소
+        latitude:
+          type: number
+          description: 위도
+        name:
+          type: string
+          description: 장소 이름
+        description:
+          type: string
+          description: 장소 설명
+        category:
+          type: string
+          description: "장소 카테고리 (CAFE, RESTAURANT, HOTEL, ATTRACTION, SHOPPING, NATURE,\
+            \ CULTURE, NIGHTLIFE, OTHER)"
+        longitude:
+          type: number
+          description: 경도
     api-trip-places-tripPlaceId1225407560:
       required:
       - address
@@ -9028,39 +9061,6 @@ components:
         category:
           type: string
           description: 장소 카테고리
-        longitude:
-          type: number
-          description: 경도
-    api-custom-places-1390377630:
-      required:
-      - address
-      - category
-      - description
-      - latitude
-      - longitude
-      - name
-      - placeType
-      type: object
-      properties:
-        placeType:
-          type: string
-          description: 장소 타입 (CUSTOM)
-        address:
-          type: string
-          description: 장소 주소
-        latitude:
-          type: number
-          description: 위도
-        name:
-          type: string
-          description: 장소 이름
-        description:
-          type: string
-          description: 장소 설명
-        category:
-          type: string
-          description: "장소 카테고리 (CAFE, RESTAURANT, HOTEL, ATTRACTION, SHOPPING, NATURE,\
-            \ CULTURE, NIGHTLIFE, OTHER)"
         longitude:
           type: number
           description: 경도
@@ -9139,13 +9139,6 @@ components:
         success:
           type: boolean
           description: 성공 여부
-    api-decks-deckId-1174495564:
-      type: object
-      properties:
-        name:
-          type: string
-          description: 수정할 덱 이름
-          nullable: true
     api-carts-769767084:
       required:
       - success
@@ -9167,6 +9160,63 @@ components:
             id:
               type: number
               description: 장바구니 ID
+        success:
+          type: boolean
+          description: 성공 여부
+    api-decks-deckId-1174495564:
+      type: object
+      properties:
+        name:
+          type: string
+          description: 수정할 덱 이름
+          nullable: true
+    api-trips-tripId-diaries466413184:
+      required:
+      - success
+      type: object
+      properties:
+        data:
+          required:
+          - content
+          - createdAt
+          - date
+          - emotion
+          - id
+          - imageUrls
+          - title
+          - updatedAt
+          type: object
+          properties:
+            date:
+              type: string
+              description: 일기 날짜
+            createdAt:
+              type: string
+              description: 생성 일시
+            emotion:
+              type: string
+              description: 감정
+            imageUrls:
+              type: array
+              description: 이미지 URL 목록
+              items:
+                oneOf:
+                - type: object
+                - type: boolean
+                - type: string
+                - type: number
+            id:
+              type: number
+              description: 일기 ID
+            title:
+              type: string
+              description: 일기 제목
+            content:
+              type: string
+              description: 일기 내용
+            updatedAt:
+              type: string
+              description: 수정 일시
         success:
           type: boolean
           description: 성공 여부
@@ -9226,56 +9276,6 @@ components:
         success:
           type: boolean
           description: 성공 여부
-    api-trips-tripId-diaries-diaryId466413184:
-      required:
-      - success
-      type: object
-      properties:
-        data:
-          required:
-          - content
-          - createdAt
-          - date
-          - emotion
-          - id
-          - imageUrls
-          - title
-          - updatedAt
-          type: object
-          properties:
-            date:
-              type: string
-              description: 일기 날짜
-            createdAt:
-              type: string
-              description: 생성 일시
-            emotion:
-              type: string
-              description: 감정
-            imageUrls:
-              type: array
-              description: 이미지 URL 목록
-              items:
-                oneOf:
-                - type: object
-                - type: boolean
-                - type: string
-                - type: number
-            id:
-              type: number
-              description: 일기 ID
-            title:
-              type: string
-              description: 일기 제목
-            content:
-              type: string
-              description: 일기 내용
-            updatedAt:
-              type: string
-              description: 수정 일시
-        success:
-          type: boolean
-          description: 성공 여부
     api-products-productId-inquiries-inquiryId-inquiry-replies-inquiryReplyId152135774:
       required:
       - content
@@ -9284,7 +9284,7 @@ components:
         content:
           type: string
           description: 수정할 답변 내용
-    api-posts-postId-post-comments-1563718501:
+    api-trip-places-tripPlaceId-trip-place-reviews-tripPlaceReviewId-trip-place-review-comments-1563718501:
       required:
       - content
       type: object
@@ -9292,7 +9292,7 @@ components:
         content:
           type: string
           description: 댓글 내용
-    api-trips-tripId-schedules-scheduleId-expenses1733945869:
+    api-trips-tripId-schedules-scheduleId-expenses-expenseId1733945869:
       required:
       - success
       type: object
@@ -9385,7 +9385,7 @@ components:
           type: string
           description: "수정할 카드 상태 (NONE, NOT_SURE, GOT_IT)"
           nullable: true
-    api-quizzes-start-248716682:
+    api-quizzes-quizId-finish-248716682:
       required:
       - success
       type: object
@@ -9477,7 +9477,7 @@ components:
         success:
           type: boolean
           description: 성공 여부
-    api-trip-places-tripPlaceId-trip-place-reviews555557446:
+    api-products-productId-product-reviews555557446:
       required:
       - content
       - rating
@@ -9529,7 +9529,7 @@ components:
         text:
           type: string
           description: 체크리스트 항목 내용
-    api-users-following-username1584325937:
+    api-users-unfollow-username1584325937:
       required:
       - data
       - success
@@ -9599,6 +9599,58 @@ components:
         defaultDeliveryAddress:
           type: boolean
           description: 기본 배송지 여부
+    api-orders1606165721:
+      required:
+      - deliveryAddressId
+      - products
+      - requirement
+      type: object
+      properties:
+        deliveryAddressId:
+          type: number
+          description: 배송지 ID
+        orderer:
+          required:
+          - email
+          - name
+          - phoneNumber
+          type: object
+          properties:
+            phoneNumber:
+              type: string
+              description: 주문자 전화번호
+            name:
+              type: string
+              description: 주문자 이름
+            email:
+              type: string
+              description: 주문자 이메일
+        requirement:
+          type: string
+          description: 배송 요청사항
+        products:
+          type: object
+          description: "주문할 상품 목록 (상품ID를 키로, 수량을 값으로 하는 Map 구조)"
+    api-decks-1066499317:
+      required:
+      - success
+      type: object
+      properties:
+        data:
+          required:
+          - id
+          - name
+          type: object
+          properties:
+            name:
+              type: string
+              description: 덱 이름
+            id:
+              type: number
+              description: 덱 ID
+        success:
+          type: boolean
+          description: 성공 여부
     api-quizzes-quizId-result1810004615:
       required:
       - success
@@ -9643,58 +9695,6 @@ components:
         success:
           type: boolean
           description: 성공 여부
-    api-decks-1066499317:
-      required:
-      - success
-      type: object
-      properties:
-        data:
-          required:
-          - id
-          - name
-          type: object
-          properties:
-            name:
-              type: string
-              description: 덱 이름
-            id:
-              type: number
-              description: 덱 ID
-        success:
-          type: boolean
-          description: 성공 여부
-    api-orders1606165721:
-      required:
-      - deliveryAddressId
-      - products
-      - requirement
-      type: object
-      properties:
-        deliveryAddressId:
-          type: number
-          description: 배송지 ID
-        orderer:
-          required:
-          - email
-          - name
-          - phoneNumber
-          type: object
-          properties:
-            phoneNumber:
-              type: string
-              description: 주문자 전화번호
-            name:
-              type: string
-              description: 주문자 이름
-            email:
-              type: string
-              description: 주문자 이메일
-        requirement:
-          type: string
-          description: 배송 요청사항
-        products:
-          type: object
-          description: "주문할 상품 목록 (상품ID를 키로, 수량을 값으로 하는 Map 구조)"
     api-deliveries-deliveryId881193698:
       required:
       - success
@@ -9743,7 +9743,7 @@ components:
         success:
           type: boolean
           description: 성공 여부
-    api-trip-places1309357923:
+    api-trip-places-tripPlaceId1309357923:
       required:
       - success
       type: object
@@ -9915,39 +9915,7 @@ components:
         productId:
           type: number
           description: 상품 ID
-    api-trips1611726699:
-      required:
-      - success
-      type: object
-      properties:
-        data:
-          required:
-          - endDate
-          - id
-          - imageUrl
-          - startDate
-          - title
-          type: object
-          properties:
-            endDate:
-              type: string
-              description: 여행 종료일
-            imageUrl:
-              type: string
-              description: 여행 이미지 URL
-            id:
-              type: number
-              description: 여행 ID
-            title:
-              type: string
-              description: 여행 제목
-            startDate:
-              type: string
-              description: 여행 시작일
-        success:
-          type: boolean
-          description: 성공 여부
-    api-products-productId-product-reviews-productReviewId194543075:
+    api-products-productId-product-reviews194543075:
       required:
       - success
       type: object
@@ -9995,7 +9963,39 @@ components:
         success:
           type: boolean
           description: 성공 여부
-    api-trips-tripId-checkLists-1960459687:
+    api-trips-tripId1611726699:
+      required:
+      - success
+      type: object
+      properties:
+        data:
+          required:
+          - endDate
+          - id
+          - imageUrl
+          - startDate
+          - title
+          type: object
+          properties:
+            endDate:
+              type: string
+              description: 여행 종료일
+            imageUrl:
+              type: string
+              description: 여행 이미지 URL
+            id:
+              type: number
+              description: 여행 ID
+            title:
+              type: string
+              description: 여행 제목
+            startDate:
+              type: string
+              description: 여행 시작일
+        success:
+          type: boolean
+          description: 성공 여부
+    api-trips-tripId-checkLists-checkListId-1960459687:
       required:
       - success
       type: object
@@ -10023,7 +10023,7 @@ components:
         exchangeRate:
           type: number
           description: 변경할 환율
-    api-trip-places-tripPlaceId-trip-place-reviews74295314:
+    api-trip-places-tripPlaceId-trip-place-reviews-tripPlaceReviewId74295314:
       required:
       - success
       type: object
@@ -10233,7 +10233,7 @@ components:
         startDate:
           type: string
           description: 여행 시작일
-    api-products-productId-inquiries-inquiryId-229784886:
+    api-products-productId-inquiries-229784886:
       required:
       - success
       type: object
@@ -10379,7 +10379,7 @@ components:
         success:
           type: boolean
           description: 성공 여부
-    api-posts-postId-post-comments1873623868:
+    api-posts-postId-post-comments-postCommentId1873623868:
       required:
       - success
       type: object
@@ -10480,6 +10480,20 @@ components:
         success:
           type: boolean
           description: 성공 여부
+    api-quizzes-quizId-finish-1207639139:
+      type: array
+      items:
+        required:
+        - answerType
+        type: object
+        properties:
+          answerType:
+            type: string
+            description: "답변 타입 (SELF_REVIEW, MULTIPLE_CHOICE, DICTATION)"
+          selfReviewStatus:
+            type: string
+            description: "자가 평가 상태 (NO_IDEA, NOT_SURE, PERFECT)"
+            nullable: true
     api-trip-places-tripPlaceId-trip-place-reviews64870212:
       required:
       - success
@@ -10552,20 +10566,6 @@ components:
         success:
           type: boolean
           description: 성공 여부
-    api-quizzes-quizId-finish-1207639139:
-      type: array
-      items:
-        required:
-        - answerType
-        type: object
-        properties:
-          answerType:
-            type: string
-            description: "답변 타입 (SELF_REVIEW, MULTIPLE_CHOICE, DICTATION)"
-          selfReviewStatus:
-            type: string
-            description: "자가 평가 상태 (NO_IDEA, NOT_SURE, PERFECT)"
-            nullable: true
     api-currencies-2130081901:
       required:
       - data
@@ -10755,7 +10755,7 @@ components:
         success:
           type: boolean
           description: 성공 여부
-    api-categories-categoryId-45463059:
+    api-categories-45463059:
       required:
       - success
       type: object
@@ -10849,62 +10849,6 @@ components:
         success:
           type: boolean
           description: 성공 여부
-    api-posts-postId-post-comments1597027995:
-      required:
-      - success
-      type: object
-      properties:
-        data:
-          required:
-          - content
-          - hasNext
-          - size
-          type: object
-          properties:
-            size:
-              type: number
-              description: 현재 페이지 크기
-            hasNext:
-              type: boolean
-              description: 다음 페이지 존재 여부
-            content:
-              type: array
-              description: 댓글 목록
-              items:
-                required:
-                - content
-                - createdAt
-                - id
-                - postId
-                - updatedAt
-                - userId
-                - username
-                type: object
-                properties:
-                  createdAt:
-                    type: string
-                    description: 생성일시
-                  postId:
-                    type: number
-                    description: 게시글 ID
-                  id:
-                    type: number
-                    description: 댓글 ID
-                  userId:
-                    type: number
-                    description: 작성자 ID
-                  content:
-                    type: string
-                    description: 댓글 내용
-                  updatedAt:
-                    type: string
-                    description: 수정일시
-                  username:
-                    type: string
-                    description: 작성자 이름
-        success:
-          type: boolean
-          description: 성공 여부
     api-trips-tripId-diaries-1964573619:
       required:
       - content
@@ -10994,6 +10938,62 @@ components:
         success:
           type: boolean
           description: 성공 여부
+    api-posts-postId-post-comments1597027995:
+      required:
+      - success
+      type: object
+      properties:
+        data:
+          required:
+          - content
+          - hasNext
+          - size
+          type: object
+          properties:
+            size:
+              type: number
+              description: 현재 페이지 크기
+            hasNext:
+              type: boolean
+              description: 다음 페이지 존재 여부
+            content:
+              type: array
+              description: 댓글 목록
+              items:
+                required:
+                - content
+                - createdAt
+                - id
+                - postId
+                - updatedAt
+                - userId
+                - username
+                type: object
+                properties:
+                  createdAt:
+                    type: string
+                    description: 생성일시
+                  postId:
+                    type: number
+                    description: 게시글 ID
+                  id:
+                    type: number
+                    description: 댓글 ID
+                  userId:
+                    type: number
+                    description: 작성자 ID
+                  content:
+                    type: string
+                    description: 댓글 내용
+                  updatedAt:
+                    type: string
+                    description: 수정일시
+                  username:
+                    type: string
+                    description: 작성자 이름
+        success:
+          type: boolean
+          description: 성공 여부
     api-decks-1219982620:
       required:
       - name
@@ -11054,7 +11054,7 @@ components:
               id:
                 type: number
                 description: 참여자 ID
-    api-trips-tripId-schedules-scheduleId-expenses1756984072:
+    api-trips-tripId-schedules-scheduleId-expenses-expenseId1756984072:
       required:
       - calculateType
       - category
@@ -11172,7 +11172,7 @@ components:
         content:
           type: string
           description: 수정할 댓글 내용
-    api-trips-tripId-trip-currencies-51782054:
+    api-trips-tripId-trip-currencies-currencyType-51782054:
       required:
       - success
       type: object
@@ -11314,7 +11314,7 @@ components:
         success:
           type: boolean
           description: 성공 여부
-    api-custom-places-customPlaceId-787797821:
+    api-custom-places-787797821:
       required:
       - success
       type: object
@@ -11592,7 +11592,7 @@ components:
         success:
           type: boolean
           description: 성공 여부
-    api-orders-orderId-2136336007:
+    api-orders-2136336007:
       required:
       - success
       type: object
@@ -11872,7 +11872,7 @@ components:
         name:
           type: string
           description: 수정할 카테고리 이름
-    api-trip-places-tripPlaceId-trip-place-reviews-tripPlaceReviewId-trip-place-review-comments-tripPlaceReviewCommentId1758278182:
+    api-trip-places-tripPlaceId-trip-place-reviews-tripPlaceReviewId-trip-place-review-comments1758278182:
       required:
       - success
       type: object
