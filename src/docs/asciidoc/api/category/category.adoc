@@ -1,0 +1,55 @@
+[[category-create]]
+=== 카테고리 생성
+
+==== HTTP Request
+include::{snippets}/category-create/http-request.adoc[]
+include::{snippets}/category-create/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/category-create/http-response.adoc[]
+include::{snippets}/category-create/response-fields.adoc[]
+
+[[category-get]]
+=== 카테고리 조회
+
+==== HTTP Request
+include::{snippets}/category-get/http-request.adoc[]
+include::{snippets}/category-get/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/category-get/http-response.adoc[]
+include::{snippets}/category-get/response-fields.adoc[]
+
+[[category-list]]
+=== 카테고리 목록 조회
+
+==== HTTP Request
+include::{snippets}/category-list/http-request.adoc[]
+
+==== HTTP Response
+include::{snippets}/category-list/http-response.adoc[]
+include::{snippets}/category-list/response-fields.adoc[]
+
+[[category-update]]
+=== 카테고리 수정
+
+==== HTTP Request
+include::{snippets}/category-update/http-request.adoc[]
+include::{snippets}/category-update/path-parameters.adoc[]
+include::{snippets}/category-update/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/category-update/http-response.adoc[]
+include::{snippets}/category-update/response-fields.adoc[]
+
+[[category-delete]]
+=== 카테고리 삭제
+
+==== HTTP Request
+include::{snippets}/category-delete/http-request.adoc[]
+include::{snippets}/category-delete/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/category-delete/http-response.adoc[]
+
+

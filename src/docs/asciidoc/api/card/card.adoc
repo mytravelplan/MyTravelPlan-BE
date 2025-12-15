@@ -1,0 +1,55 @@
+[[card-create]]
+=== 카드 생성
+
+==== HTTP Request
+include::{snippets}/card-create/http-request.adoc[]
+include::{snippets}/card-create/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/card-create/http-response.adoc[]
+include::{snippets}/card-create/response-fields.adoc[]
+
+[[card-get]]
+=== 카드 조회
+
+==== HTTP Request
+include::{snippets}/card-get/http-request.adoc[]
+include::{snippets}/card-get/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/card-get/http-response.adoc[]
+include::{snippets}/card-get/response-fields.adoc[]
+
+[[card-list]]
+=== 카드 목록 조회
+
+==== HTTP Request
+include::{snippets}/card-list/http-request.adoc[]
+include::{snippets}/card-list/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/card-list/http-response.adoc[]
+include::{snippets}/card-list/response-fields.adoc[]
+
+[[card-update]]
+=== 카드 수정
+
+==== HTTP Request
+include::{snippets}/card-update/http-request.adoc[]
+include::{snippets}/card-update/path-parameters.adoc[]
+include::{snippets}/card-update/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/card-update/http-response.adoc[]
+include::{snippets}/card-update/response-fields.adoc[]
+
+[[card-delete]]
+=== 카드 삭제
+
+==== HTTP Request
+include::{snippets}/card-delete/http-request.adoc[]
+include::{snippets}/card-delete/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/card-delete/http-response.adoc[]
+

@@ -1,0 +1,56 @@
+[[diary-create]]
+=== 일기 생성
+
+==== HTTP Request
+include::{snippets}/diary-create/http-request.adoc[]
+include::{snippets}/diary-create/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/diary-create/http-response.adoc[]
+include::{snippets}/diary-create/response-fields.adoc[]
+
+[[diary-get]]
+=== 일기 조회
+
+==== HTTP Request
+include::{snippets}/diary-get/http-request.adoc[]
+include::{snippets}/diary-get/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/diary-get/http-response.adoc[]
+include::{snippets}/diary-get/response-fields.adoc[]
+
+[[diary-list]]
+=== 일기 목록 조회
+
+==== HTTP Request
+include::{snippets}/diary-list/http-request.adoc[]
+include::{snippets}/diary-list/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/diary-list/http-response.adoc[]
+include::{snippets}/diary-list/response-fields.adoc[]
+
+[[diary-update]]
+=== 일기 수정
+
+==== HTTP Request
+include::{snippets}/diary-update/http-request.adoc[]
+include::{snippets}/diary-update/path-parameters.adoc[]
+include::{snippets}/diary-update/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/diary-update/http-response.adoc[]
+include::{snippets}/diary-update/response-fields.adoc[]
+
+[[diary-delete]]
+=== 일기 삭제
+
+==== HTTP Request
+include::{snippets}/diary-delete/http-request.adoc[]
+include::{snippets}/diary-delete/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/diary-delete/http-response.adoc[]
+
+

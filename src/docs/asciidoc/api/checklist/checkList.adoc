@@ -1,0 +1,55 @@
+[[checkList-create]]
+=== 체크리스트 생성
+
+==== HTTP Request
+include::{snippets}/checkList-create/http-request.adoc[]
+include::{snippets}/checkList-create/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/checkList-create/http-response.adoc[]
+include::{snippets}/checkList-create/response-fields.adoc[]
+
+[[checkList-get]]
+=== 체크리스트 조회
+
+==== HTTP Request
+include::{snippets}/checkList-get/http-request.adoc[]
+include::{snippets}/checkList-get/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/checkList-get/http-response.adoc[]
+include::{snippets}/checkList-get/response-fields.adoc[]
+
+[[checkList-list]]
+=== 체크리스트 목록 조회
+
+==== HTTP Request
+include::{snippets}/checkList-list/http-request.adoc[]
+include::{snippets}/checkList-list/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/checkList-list/http-response.adoc[]
+include::{snippets}/checkList-list/response-fields.adoc[]
+
+[[checkList-update]]
+=== 체크리스트 수정
+
+==== HTTP Request
+include::{snippets}/checkList-update/http-request.adoc[]
+include::{snippets}/checkList-update/path-parameters.adoc[]
+include::{snippets}/checkList-update/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/checkList-update/http-response.adoc[]
+include::{snippets}/checkList-update/response-fields.adoc[]
+
+[[checkList-delete]]
+=== 체크리스트 삭제
+
+==== HTTP Request
+include::{snippets}/checkList-delete/http-request.adoc[]
+include::{snippets}/checkList-delete/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/checkList-delete/http-response.adoc[]
+

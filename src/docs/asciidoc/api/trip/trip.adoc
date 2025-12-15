@@ -1,0 +1,106 @@
+[[trip-create]]
+=== 여행 생성
+
+==== HTTP Request
+include::{snippets}/trip-create/http-request.adoc[]
+include::{snippets}/trip-create/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/trip-create/http-response.adoc[]
+include::{snippets}/trip-create/response-fields.adoc[]
+
+[[trip-get]]
+=== 여행 조회
+
+==== HTTP Request
+include::{snippets}/trip-get/http-request.adoc[]
+
+==== HTTP Response
+include::{snippets}/trip-get/http-response.adoc[]
+include::{snippets}/trip-get/response-fields.adoc[]
+
+[[my-trip-list]]
+=== 나의 여행 목록 조회
+
+==== HTTP Request
+include::{snippets}/my-trip-list/http-request.adoc[]
+
+==== HTTP Response
+include::{snippets}/my-trip-list/http-response.adoc[]
+include::{snippets}/my-trip-list/response-fields.adoc[]
+
+
+[[trip-update]]
+=== 여행 수정
+
+==== HTTP Request
+include::{snippets}/trip-update/http-request.adoc[]
+include::{snippets}/trip-update/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/trip-update/http-response.adoc[]
+include::{snippets}/trip-update/response-fields.adoc[]
+
+[[trip-delete]]
+=== 여행 삭제
+
+==== HTTP Request
+include::{snippets}/trip-delete/http-request.adoc[]
+include::{snippets}/trip-delete/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/trip-delete/http-response.adoc[]
+
+[[trip-settlement]]
+=== 여행 정산
+
+==== HTTP Request
+include::{snippets}/trip-settlement/http-request.adoc[]
+include::{snippets}/trip-settlement/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/trip-settlement/http-response.adoc[]
+include::{snippets}/trip-settlement/response-fields.adoc[]
+
+[[trip-expense-stats]]
+=== 여행 지출 통계
+
+==== HTTP Request
+include::{snippets}/trip-expense-stats/http-request.adoc[]
+include::{snippets}/trip-expense-stats/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/trip-expense-stats/http-response.adoc[]
+include::{snippets}/trip-expense-stats/response-fields.adoc[]
+
+[[trip-expense-export]]
+=== 여행 지출 CSV 다운로드
+
+==== HTTP Request
+include::{snippets}/trip-expense-export/http-request.adoc[]
+include::{snippets}/trip-expense-export/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/trip-expense-export/http-response.adoc[]
+
+[[trip-invite-link-generate]]
+=== 여행 초대 링크 생성
+
+==== HTTP Request
+include::{snippets}/trip-invite-link-generate/http-request.adoc[]
+include::{snippets}/trip-invite-link-generate/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/trip-invite-link-generate/http-response.adoc[]
+include::{snippets}/trip-invite-link-generate/response-fields.adoc[]
+
+[[trip-join]]
+=== 여행 초대 링크로 참가
+
+==== HTTP Request
+include::{snippets}/trip-join/http-request.adoc[]
+include::{snippets}/trip-join/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/trip-join/http-response.adoc[]
+include::{snippets}/trip-join/response-fields.adoc[]

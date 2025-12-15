@@ -1,0 +1,110 @@
+[[inquiry-create]]
+=== 문의 생성
+
+==== HTTP Request
+include::{snippets}/inquiry-create/http-request.adoc[]
+include::{snippets}/inquiry-create/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/inquiry-create/http-response.adoc[]
+include::{snippets}/inquiry-create/response-fields.adoc[]
+
+[[inquiry-get]]
+=== 문의 조회
+
+==== HTTP Request
+include::{snippets}/inquiry-get/http-request.adoc[]
+include::{snippets}/inquiry-get/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/inquiry-get/http-response.adoc[]
+include::{snippets}/inquiry-get/response-fields.adoc[]
+
+[[inquiry-list]]
+=== 문의 목록 조회
+
+==== HTTP Request
+include::{snippets}/inquiry-list/http-request.adoc[]
+
+==== HTTP Response
+include::{snippets}/inquiry-list/http-response.adoc[]
+include::{snippets}/inquiry-list/response-fields.adoc[]
+
+[[inquiry-update]]
+=== 문의 수정
+
+==== HTTP Request
+include::{snippets}/inquiry-update/http-request.adoc[]
+include::{snippets}/inquiry-update/path-parameters.adoc[]
+include::{snippets}/inquiry-update/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/inquiry-update/http-response.adoc[]
+include::{snippets}/inquiry-update/response-fields.adoc[]
+
+[[inquiry-delete]]
+=== 문의 삭제
+
+==== HTTP Request
+include::{snippets}/inquiry-delete/http-request.adoc[]
+include::{snippets}/inquiry-delete/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/inquiry-delete/http-response.adoc[]
+
+[[inquiry-reply-create]]
+=== 문의 답변 생성
+
+==== HTTP Request
+include::{snippets}/inquiry-reply-create/http-request.adoc[]
+include::{snippets}/inquiry-reply-create/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/inquiry-reply-create/http-response.adoc[]
+include::{snippets}/inquiry-reply-create/response-fields.adoc[]
+
+[[inquiry-reply-get]]
+=== 문의 답변 조회
+
+==== HTTP Request
+include::{snippets}/inquiry-reply-get/http-request.adoc[]
+include::{snippets}/inquiry-reply-get/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/inquiry-reply-get/http-response.adoc[]
+include::{snippets}/inquiry-reply-get/response-fields.adoc[]
+
+[[inquiry-reply-list]]
+=== 문의 답변 목록 조회
+
+==== HTTP Request
+include::{snippets}/inquiry-reply-list/http-request.adoc[]
+include::{snippets}/inquiry-reply-list/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/inquiry-reply-list/http-response.adoc[]
+include::{snippets}/inquiry-reply-list/response-fields.adoc[]
+
+[[inquiry-reply-update]]
+=== 문의 답변 수정
+
+==== HTTP Request
+include::{snippets}/inquiry-reply-update/http-request.adoc[]
+include::{snippets}/inquiry-reply-update/path-parameters.adoc[]
+include::{snippets}/inquiry-reply-update/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/inquiry-reply-update/http-response.adoc[]
+include::{snippets}/inquiry-reply-update/response-fields.adoc[]
+
+[[inquiry-reply-delete]]
+=== 문의 답변 삭제
+
+==== HTTP Request
+include::{snippets}/inquiry-reply-delete/http-request.adoc[]
+include::{snippets}/inquiry-reply-delete/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/inquiry-reply-delete/http-response.adoc[]
+
+

@@ -1,0 +1,31 @@
+[[auth-refresh-token]]
+=== 토큰 갱신
+
+==== HTTP Request
+include::{snippets}/auth-refresh-token/http-request.adoc[]
+
+==== HTTP Response
+include::{snippets}/auth-refresh-token/http-response.adoc[]
+include::{snippets}/auth-refresh-token/response-fields.adoc[]
+
+[[auth-add-info]]
+=== 추가 정보 입력
+
+==== HTTP Request
+include::{snippets}/auth-add-info/http-request.adoc[]
+include::{snippets}/auth-add-info/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/auth-add-info/http-response.adoc[]
+include::{snippets}/auth-add-info/response-fields.adoc[]
+
+[[auth-logout]]
+=== 로그아웃
+
+==== HTTP Request
+include::{snippets}/auth-logout/http-request.adoc[]
+include::{snippets}/auth-logout/request-headers.adoc[]
+
+==== HTTP Response
+include::{snippets}/auth-logout/http-response.adoc[]
+
