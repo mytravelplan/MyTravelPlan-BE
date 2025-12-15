@@ -1,0 +1,57 @@
+[[trip-place-create]]
+=== 여행 장소 생성
+
+==== HTTP Request
+include::{snippets}/trip-place-create/http-request.adoc[]
+include::{snippets}/trip-place-create/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/trip-place-create/http-response.adoc[]
+include::{snippets}/trip-place-create/response-fields.adoc[]
+
+[[trip-place-get]]
+=== 여행 장소 조회
+
+==== HTTP Request
+include::{snippets}/trip-place-get/http-request.adoc[]
+
+==== HTTP Response
+include::{snippets}/trip-place-get/http-response.adoc[]
+include::{snippets}/trip-place-get/response-fields.adoc[]
+
+[[trip-place-list]]
+=== 여행 장소 목록 조회
+
+==== HTTP Request
+include::{snippets}/trip-place-list/http-request.adoc[]
+
+==== HTTP Response
+include::{snippets}/trip-place-list/http-response.adoc[]
+include::{snippets}/trip-place-list/response-fields.adoc[]
+
+[[trip-place-update]]
+=== 여행 장소 수정
+
+==== HTTP Request
+include::{snippets}/trip-place-update/http-request.adoc[]
+
+==== HTTP Response
+include::{snippets}/trip-place-update/http-response.adoc[]
+include::{snippets}/trip-place-update/response-fields.adoc[]
+
+[[trip-place-delete]]
+=== 여행 장소 삭제
+
+==== HTTP Request
+include::{snippets}/trip-place-delete/http-request.adoc[]
+
+==== HTTP Response
+include::{snippets}/trip-place-delete/http-response.adoc[]
+
+[[trip-place-bookmark]]
+=== 여행 장소 북마크
+
+==== HTTP Request
+include::{snippets}/trip-place-bookmark/http-request.adoc[]
+==== HTTP Response
+include::{snippets}/trip-place-bookmark/http-response.adoc[]

@@ -1,0 +1,112 @@
+ifndef::snippets[]
+:snippets: ../../build/generated-snippets
+endif::[]
+= MyTravelPlan REST API 문서
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 2
+:sectlinks:
+
+[[auth-api]]
+== 인증 API
+include::api/auth/auth.adoc[]
+
+[[user-api]]
+== 사용자 API
+include::api/user/user.adoc[]
+
+[[trip-api]]
+== 여행 API
+include::api/trip/trip.adoc[]
+
+[[schedule-api]]
+== 일정 API
+include::api/schedule/schedule.adoc[]
+
+[[place-api]]
+== 장소 API
+include::api/place/custom-place.adoc[]
+include::api/place/trip-place.adoc[]
+
+[[budget-api]]
+== 예산 API
+include::api/budget/budget.adoc[]
+
+[[expense-api]]
+== 지출 API
+include::api/expense/expense.adoc[]
+
+[[checkList-api]]
+== 체크리스트 API
+include::api/checklist/checkList.adoc[]
+
+[[checkListItem-api]]
+== 체크리스트 항목 API
+include::api/checklist/checkListItem.adoc[]
+
+[[diary-api]]
+== 일기 API
+include::api/diary/diary.adoc[]
+
+[[post-api]]
+== 게시글 API
+include::api/post/post.adoc[]
+
+[[comment-api]]
+== 댓글 API
+include::api/comment/post-comment.adoc[]
+include::api/comment/product-review-comment.adoc[]
+include::api/comment/trip-place-reveiw-comment.adoc[]
+
+[[review-api]]
+== 리뷰 API
+include::api/review/product-review.adoc[]
+include::api/review/trip-place-review.adoc[]
+
+[[product-api]]
+== 상품 API
+include::api/product/product.adoc[]
+
+[[cart-api]]
+== 장바구니 API
+include::api/cart/cart.adoc[]
+
+[[order-api]]
+== 주문 API
+include::api/order/order.adoc[]
+
+[[delivery-api]]
+== 배송 API
+include::api/delivery/delivery.adoc[]
+include::api/delivery/delivery-address.adoc[]
+
+[[card-api]]
+== 카드 API
+include::api/card/card.adoc[]
+
+[[deck-api]]
+== 덱 API
+include::api/deck/deck.adoc[]
+
+[[quiz-api]]
+== 퀴즈 API
+include::api/quiz/quiz.adoc[]
+
+[[question-api]]
+== 질문 API
+include::api/question/question.adoc[]
+
+[[inquiry-api]]
+== 문의 API
+include::api/inquiry/inquiry.adoc[]
+
+[[category-api]]
+== 카테고리 API
+include::api/category/category.adoc[]
+
+[[currency-api]]
+== 통화 API
+include::api/currency/currency.adoc[]
+include::api/currency/trip-currency.adoc[]

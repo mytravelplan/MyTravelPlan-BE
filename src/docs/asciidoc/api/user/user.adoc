@@ -1,0 +1,115 @@
+[[user-create]]
+=== 회원가입
+
+==== HTTP Request
+include::{snippets}/user-create/http-request.adoc[]
+include::{snippets}/user-create/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/user-create/http-response.adoc[]
+include::{snippets}/user-create/response-fields.adoc[]
+
+[[user-get]]
+=== 사용자 정보 조회
+
+==== HTTP Request
+include::{snippets}/user-get/http-request.adoc[]
+include::{snippets}/user-get/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/user-get/http-response.adoc[]
+include::{snippets}/user-get/response-fields.adoc[]
+
+[[user-update]]
+=== 사용자 정보 수정
+
+==== HTTP Request
+include::{snippets}/user-update/http-request.adoc[]
+include::{snippets}/user-update/path-parameters.adoc[]
+include::{snippets}/user-update/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/user-update/http-response.adoc[]
+include::{snippets}/user-update/response-fields.adoc[]
+
+[[user-profile-get]]
+=== 사용자 프로필 조회
+
+==== HTTP Request
+include::{snippets}/user-profile-get/http-request.adoc[]
+include::{snippets}/user-profile-get/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/user-profile-get/http-response.adoc[]
+include::{snippets}/user-profile-get/response-fields.adoc[]
+
+[[user-profile-update]]
+=== 사용자 프로필 수정
+
+==== HTTP Request
+include::{snippets}/user-profile-update/http-request.adoc[]
+include::{snippets}/user-profile-update/path-parameters.adoc[]
+include::{snippets}/user-profile-update/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/user-profile-update/http-response.adoc[]
+include::{snippets}/user-profile-update/response-fields.adoc[]
+
+[[user-follow]]
+=== 팔로우 요청
+
+==== HTTP Request
+include::{snippets}/user-follow/http-request.adoc[]
+include::{snippets}/user-follow/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/user-follow/http-response.adoc[]
+include::{snippets}/user-follow/response-fields.adoc[]
+
+[[user-unfollow]]
+=== 언팔로우 요청
+
+==== HTTP Request
+include::{snippets}/user-unfollow/http-request.adoc[]
+include::{snippets}/user-unfollow/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/user-unfollow/http-response.adoc[]
+include::{snippets}/user-unfollow/response-fields.adoc[]
+
+[[user-followers-list]]
+=== 특정 사용자의 팔로워 목록 조회
+
+==== HTTP Request
+include::{snippets}/user-followers-list/http-request.adoc[]
+include::{snippets}/user-followers-list/path-parameters.adoc[]
+include::{snippets}/user-followers-list/query-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/user-followers-list/http-response.adoc[]
+include::{snippets}/user-followers-list/response-fields.adoc[]
+
+[[user-following-list]]
+=== 특정 사용자의 팔로잉 목록 조회
+
+==== HTTP Request
+include::{snippets}/user-following-list/http-request.adoc[]
+include::{snippets}/user-following-list/path-parameters.adoc[]
+include::{snippets}/user-following-list/query-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/user-following-list/http-response.adoc[]
+include::{snippets}/user-following-list/response-fields.adoc[]
+
+[[user-posts-list]]
+=== 특정 사용자가 작성한 게시글 목록 조회
+
+==== HTTP Request
+include::{snippets}/user-posts-list/http-request.adoc[]
+include::{snippets}/user-posts-list/path-parameters.adoc[]
+include::{snippets}/user-posts-list/query-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/user-posts-list/http-response.adoc[]
+include::{snippets}/user-posts-list/response-fields.adoc[]
+

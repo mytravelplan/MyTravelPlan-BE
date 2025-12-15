@@ -1,0 +1,23 @@
+[[delivery-get]]
+=== 배송 조회
+
+==== HTTP Request
+include::{snippets}/delivery-get/http-request.adoc[]
+include::{snippets}/delivery-get/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/delivery-get/http-response.adoc[]
+include::{snippets}/delivery-get/response-fields.adoc[]
+
+[[delivery-update]]
+=== 배송 정보 수정
+
+==== HTTP Request
+include::{snippets}/delivery-update/http-request.adoc[]
+include::{snippets}/delivery-update/path-parameters.adoc[]
+include::{snippets}/delivery-update/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/delivery-update/http-response.adoc[]
+include::{snippets}/delivery-update/response-fields.adoc[]
+

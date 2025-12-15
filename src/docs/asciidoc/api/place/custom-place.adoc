@@ -1,0 +1,50 @@
+[[custom-place-create]]
+=== 나만의 장소 생성
+
+==== HTTP Request
+include::{snippets}/custom-place-create/http-request.adoc[]
+include::{snippets}/custom-place-create/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/custom-place-create/http-response.adoc[]
+include::{snippets}/custom-place-create/response-fields.adoc[]
+
+[[custom-place-get]]
+=== 나만의 장소 조회
+
+==== HTTP Request
+include::{snippets}/custom-place-get/http-request.adoc[]
+
+==== HTTP Response
+include::{snippets}/custom-place-get/http-response.adoc[]
+include::{snippets}/custom-place-get/response-fields.adoc[]
+
+[[my-custom-place-list]]
+=== 나의 나만의 장소 목록 조회
+
+==== HTTP Request
+include::{snippets}/my-custom-place-list/http-request.adoc[]
+
+==== HTTP Response
+include::{snippets}/my-custom-place-list/http-response.adoc[]
+include::{snippets}/my-custom-place-list/response-fields.adoc[]
+
+[[custom-place-update]]
+=== 나만의 장소 수정
+
+==== HTTP Request
+include::{snippets}/custom-place-update/http-request.adoc[]
+
+==== HTTP Response
+include::{snippets}/custom-place-update/http-response.adoc[]
+include::{snippets}/custom-place-update/response-fields.adoc[]
+
+[[custom-place-delete]]
+=== 나만의 장소 삭제
+
+==== HTTP Request
+include::{snippets}/custom-place-delete/http-request.adoc[]
+
+==== HTTP Response
+include::{snippets}/custom-place-delete/http-response.adoc[]
+

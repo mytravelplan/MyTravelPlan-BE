@@ -1,0 +1,56 @@
+[[trip-place-review-comment-create]]
+=== 여행 장소 리뷰 생성
+
+==== HTTP Request
+include::{snippets}/trip-place-review-comment-create/http-request.adoc[]
+include::{snippets}/trip-place-review-comment-create/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/trip-place-review-comment-create/http-response.adoc[]
+include::{snippets}/trip-place-review-comment-create/response-fields.adoc[]
+
+[[trip-place-review-comment-get]]
+=== 여행 장소 리뷰 댓글 조회
+
+==== HTTP Request
+include::{snippets}/trip-place-review-comment-get/http-request.adoc[]
+include::{snippets}/trip-place-review-comment-get/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/trip-place-review-comment-get/http-response.adoc[]
+include::{snippets}/trip-place-review-comment-get/response-fields.adoc[]
+
+[[trip-place-review-comment-list]]
+=== 여행 장소 리뷰 댓글 목록 조회
+
+==== HTTP Request
+include::{snippets}/trip-place-review-comment-list/http-request.adoc[]
+include::{snippets}/trip-place-review-comment-list/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/trip-place-review-comment-list/http-response.adoc[]
+include::{snippets}/trip-place-review-comment-list/response-fields.adoc[]
+
+[[trip-place-review-comment-update]]
+=== 여행 장소 리뷰 댓글 수정
+
+==== HTTP Request
+include::{snippets}/trip-place-review-comment-update/http-request.adoc[]
+include::{snippets}/trip-place-review-comment-update/path-parameters.adoc[]
+include::{snippets}/trip-place-review-comment-update/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/trip-place-review-comment-update/http-response.adoc[]
+include::{snippets}/trip-place-review-comment-update/response-fields.adoc[]
+
+[[trip-place-review-comment-delete]]
+=== 여행 장소 리뷰 댓글 삭제
+
+==== HTTP Request
+include::{snippets}/trip-place-review-comment-delete/http-request.adoc[]
+include::{snippets}/trip-place-review-comment-delete/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/trip-place-review-comment-delete/http-response.adoc[]
+
+
