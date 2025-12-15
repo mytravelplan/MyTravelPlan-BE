@@ -1,0 +1,43 @@
+services:
+  mytravelplan:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mytravelplan
+    env_file:
+      - .env
+    ports:
+      - "8080:8080"
+    depends_on: # MYSQL과 Redis가 먼저 실행되고, 스프링 부트 애플리케이션이 실행되도록 설정
+      - mysql
+      - redis
+    networks:
+      - mytravelplan-network
+
+  mysql:
+      image: mysql
+      container_name: mytravelplan-mysql
+      environment:
+          MYSQL_DATABASE: ${DB_NAME}
+          MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+      ports:
+          - "3306:3306"
+      volumes:
+          - mysql-data:/var/lib/mysql
+      networks:
+          - mytravelplan-network
+
+  redis:
+    image: redis:latest
+    container_name: mytravelplan-redis
+    ports:
+      - "6379:6379"
+    networks:
+      - mytravelplan-network
+
+volumes:
+  mysql-data:
+
+networks:
+  mytravelplan-network:
+    driver: bridge

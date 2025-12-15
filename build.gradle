@@ -1,0 +1,178 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.4.5'
+    id 'io.spring.dependency-management' version '1.1.7'
+    id 'org.asciidoctor.jvm.convert' version '4.0.4'     // Asciidoc → HTML 변환
+    id 'com.epages.restdocs-api-spec' version '0.19.4'   // OpenAPI 문서 생성
+    id 'jacoco'                                          // 코드 커버리지(JaCoCo)
+}
+
+group = 'travel.mytravelplan'
+version = '0.0.1-SNAPSHOT'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+// 전역 변수 (REST Docs 스니펫 디렉터리)
+ext {
+    snippetsDir = file('build/generated-snippets')
+}
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+    asciidoctorExt // Asciidoctor 확장 기능
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Spring Boot Starters
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+    implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
+    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+    implementation 'org.thymeleaf.extras:thymeleaf-extras-springsecurity6'
+
+    // JWT
+    implementation 'io.jsonwebtoken:jjwt:0.13.0'
+    implementation 'io.jsonwebtoken:jjwt-jackson:0.13.0'
+
+    // DB
+    runtimeOnly 'com.h2database:h2'
+    runtimeOnly 'com.mysql:mysql-connector-j'
+
+    // Lombok
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+    testCompileOnly 'org.projectlombok:lombok'
+    testAnnotationProcessor 'org.projectlombok:lombok'
+
+    // MapStruct
+    implementation 'org.mapstruct:mapstruct:1.6.3'
+    annotationProcessor 'org.mapstruct:mapstruct-processor:1.6.3'
+
+    // AWS S3
+    implementation 'software.amazon.awssdk:s3:2.31.66'
+
+    // Querydsl
+    implementation 'com.querydsl:querydsl-jpa:5.1.0:jakarta'
+    annotationProcessor "com.querydsl:querydsl-apt:${dependencyManagement.importedProperties['querydsl.version']}:jakarta"
+    annotationProcessor "jakarta.annotation:jakarta.annotation-api"
+    annotationProcessor "jakarta.persistence:jakarta.persistence-api"
+
+    // OpenCSV
+    implementation 'com.opencsv:opencsv:5.12.0'
+
+    // 테스트
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'org.springframework.security:spring-security-test'
+
+    // Spring REST Docs + OpenAPI
+    testImplementation 'org.springframework.restdocs:spring-restdocs-mockmvc'
+    asciidoctorExt 'org.springframework.restdocs:spring-restdocs-asciidoctor'
+    testImplementation 'com.epages:restdocs-api-spec-mockmvc:0.19.4'
+
+    // JUnit Platform
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+// 테스트 설정 (REST Docs 및 JaCoCo, OpenAPI 문서 생성)
+tasks.named('test') {
+    useJUnitPlatform()
+    outputs.dir snippetsDir        // REST Docs 스니펫 출력 디렉터리
+    finalizedBy 'jacocoTestReport' // test 후 JaCoCo 리포트
+    finalizedBy 'copyRestDocs'        // test 후 Asciidoctor 문서 생성
+    finalizedBy 'copyOASToSwagger'     // test 후 OpenAPI 문서 생성
+}
+
+// JaCoCo 설정
+jacocoTestReport {
+    dependsOn test
+
+    reports {
+        xml.required = true
+        html.required = true
+        csv.required = true
+    }
+
+    afterEvaluate {
+        classDirectories.setFrom(
+                files(classDirectories.files.collect {
+                    fileTree(dir: it,
+                            includes: [
+                            '**/controller/**',
+                            '**/service/**',
+                            '**/repository/**',
+                            ],
+                            exclude: [
+                                    '**/security/**'
+                            ]
+                    )
+                })
+        )
+    }
+}
+
+// Asciidoctor 작업 전에 기존 문서 삭제
+asciidoctor.doFirst {
+    delete file('src/main/resources/static/docs')
+}
+
+// Asciidoctor 설정 (REST Docs 스니펫 → HTML 문서)
+asciidoctor {
+    inputs.dir snippetsDir
+    configurations 'asciidoctorExt'
+    sources {
+        include '**/index.adoc'   // 엔트리 파일들
+    }
+    baseDirFollowsSourceFile()
+
+    dependsOn test
+}
+
+tasks.register('copyRestDocs', Copy) {
+    dependsOn asciidoctor
+    from layout.buildDirectory.dir("docs/asciidoc")
+    into "src/main/resources/static/docs"
+}
+
+// 0 생성 설정 (restdocs-api-spec)
+openapi3 {
+    server = 'https://localhost:8080'
+    title = 'MyTravelPlan API Documentation'
+    description = 'This is the API documentation for MyTravelPlan application.'
+    version = '0.0.1-SNAPSHOT'
+    format = 'yaml'
+}
+
+// OpenAPI YAML을 Swagger UI 리소스 폴더로 복사
+tasks.register('copyOASToSwagger', Copy) {
+    dependsOn 'openapi3'
+
+    doFirst {
+        delete 'src/main/resources/static/swagger-ui/openapi3.yaml'
+    }
+
+    from(layout.buildDirectory.file("api-spec/openapi3.yaml"))
+    into "src/main/resources/static/swagger-ui"
+}
+
+// 정리 작업
+clean {
+    delete file('src/main/generated')
+}
+
+// plain JAR 비활성화
+jar {
+    enabled = false
+}
